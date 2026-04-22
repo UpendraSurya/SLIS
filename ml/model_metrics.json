@@ -1,0 +1,70 @@
+{
+  "classifier": {
+    "model_name": "Random Forest",
+    "cv_f1_macro": 0.962,
+    "test_accuracy": 0.92,
+    "features": [
+      "avg_attendance",
+      "att_month1",
+      "att_month2",
+      "att_trend",
+      "engagement_score",
+      "gpa_start",
+      "avg_it1",
+      "avg_it2",
+      "it1_it2_delta",
+      "it1_it2_slope",
+      "avg_roll_w4",
+      "avg_roll_w8",
+      "it1_std",
+      "it2_std",
+      "it1_range",
+      "it2_range",
+      "lms_logins_per_week",
+      "forum_posts"
+    ],
+    "classes": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "label_source": "IT1+IT2 early_score percentiles (p33/p66) \u2014 no final leakage",
+    "fixes_applied": [
+      "percentile thresholds (not hardcoded)",
+      "label from IT1+IT2 only",
+      "subject variance features added",
+      "class_weight=balanced",
+      "predict_proba confidence output",
+      "avg_score_trend replaced with it1_it2_slope"
+    ]
+  },
+  "regressor": {
+    "model_name": "Ridge Regression",
+    "cv_rmse": 5.0201,
+    "test_rmse": 4.6759,
+    "test_r2": 0.8853,
+    "features": [
+      "avg_attendance",
+      "att_month1",
+      "att_month2",
+      "att_trend",
+      "engagement_score",
+      "gpa_start",
+      "avg_it1",
+      "avg_it2",
+      "it1_it2_delta",
+      "it1_it2_slope",
+      "avg_roll_w4",
+      "avg_roll_w8",
+      "it1_std",
+      "it2_std",
+      "it1_range",
+      "it2_range",
+      "lms_logins_per_week",
+      "forum_posts",
+      "resources_accessed",
+      "avg_session_minutes"
+    ],
+    "target": "weighted_score (IT1\u00d70.25 + IT2\u00d70.25 + Final\u00d70.50)"
+  }
+}

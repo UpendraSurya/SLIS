@@ -1,0 +1,227 @@
+/**
+ * SLIS Design System — Core CSS Variables
+ * Colors, typography, spacing, and component tokens
+ * Design language: Linear/Vercel dark dashboard aesthetic
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ─── Background ─────────────────────────────── */
+  --bg-base:       #080808;
+  --bg-surface:    #111111;
+  --bg-elevated:   #1a1a1a;
+  --bg-overlay:    #222222;
+
+  /* ─── Borders ────────────────────────────────── */
+  --border:        #2a2a2a;
+  --border-strong: #3a3a3a;
+  --border-focus:  #4F7FFF;
+
+  /* ─── Foreground / Text ──────────────────────── */
+  --fg-1:          #f0f0f0;
+  --fg-2:          #888888;
+  --fg-3:          #555555;
+  --fg-inv:        #080808;
+
+  /* ─── Accent ─────────────────────────────────── */
+  --accent:        #4F7FFF;
+  --accent-hover:  #6B95FF;
+  --accent-dim:    #1a2d5a;
+  --accent-text:   #8FB3FF;
+
+  /* ─── Semantic: Risk ─────────────────────────── */
+  --risk-high:     #FF4444;
+  --risk-high-dim: #3a1010;
+  --risk-med:      #FF9900;
+  --risk-med-dim:  #3a2500;
+  --risk-low:      #22C55E;
+  --risk-low-dim:  #0d2e1a;
+
+  /* ─── Semantic: Status ───────────────────────── */
+  --success:       #22C55E;
+  --warning:       #FF9900;
+  --danger:        #FF4444;
+  --info:          #4F7FFF;
+
+  /* ─── Typography ─────────────────────────────── */
+  --font-display:  'Space Grotesk', sans-serif;
+  --font-body:     'IBM Plex Sans', sans-serif;
+  --font-mono:     'IBM Plex Mono', monospace;
+
+  /* ─── Type Scale ─────────────────────────────── */
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 14px;
+  --text-md:   16px;
+  --text-lg:   20px;
+  --text-xl:   24px;
+  --text-2xl:  32px;
+  --text-3xl:  48px;
+
+  /* ─── Font Weights ───────────────────────────── */
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-semi:    600;
+  --fw-bold:    700;
+
+  /* ─── Line Heights ───────────────────────────── */
+  --lh-tight:  1.2;
+  --lh-snug:   1.4;
+  --lh-normal: 1.6;
+
+  /* ─── Letter Spacing ─────────────────────────── */
+  --ls-tight:  -0.02em;
+  --ls-normal: -0.01em;
+  --ls-wide:   0.04em;
+  --ls-wider:  0.08em;
+
+  /* ─── Spacing ────────────────────────────────── */
+  --sp-1:   4px;
+  --sp-2:   8px;
+  --sp-3:   12px;
+  --sp-4:   16px;
+  --sp-6:   24px;
+  --sp-8:   32px;
+  --sp-12:  48px;
+  --sp-16:  64px;
+
+  /* ─── Border Radius ──────────────────────────── */
+  --radius-none:  0px;
+  --radius-badge: 2px;
+  --radius-sm:    4px;   /* only for inputs/tooltips */
+
+  /* ─── Sidebar ────────────────────────────────── */
+  --sidebar-width: 240px;
+
+  /* ─── Transitions ────────────────────────────── */
+  --transition-fast: 120ms ease;
+  --transition-base: 180ms ease;
+}
+
+/* ─── Semantic Aliases ───────────────────────────────────────── */
+:root {
+  --page-bg:        var(--bg-base);
+  --card-bg:        var(--bg-surface);
+  --card-border:    var(--border);
+  --nav-bg:         var(--bg-surface);
+  --nav-border:     var(--border);
+  --nav-active-bg:  var(--bg-elevated);
+  --nav-active-bar: var(--accent);
+  --input-bg:       var(--bg-elevated);
+  --input-border:   var(--border-strong);
+  --table-row-alt:  var(--bg-surface);
+  --table-border:   var(--border);
+}
+
+/* ─── Base Reset + Defaults ──────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-base);
+  color:       var(--fg-1);
+  font-family: var(--font-body);
+  font-size:   var(--text-base);
+  line-height: var(--lh-normal);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Heading Styles ─────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family:    var(--font-display);
+  font-weight:    var(--fw-semi);
+  letter-spacing: var(--ls-tight);
+  color:          var(--fg-1);
+  line-height:    var(--lh-tight);
+}
+h1 { font-size: var(--text-3xl); }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-xl);  }
+h4 { font-size: var(--text-lg);  }
+h5 { font-size: var(--text-md);  font-weight: var(--fw-medium); }
+h6 { font-size: var(--text-base); font-weight: var(--fw-medium); }
+
+p  { color: var(--fg-2); line-height: var(--lh-normal); }
+
+code, pre, .mono {
+  font-family: var(--font-mono);
+  font-size:   var(--text-sm);
+  color:       var(--fg-1);
+}
+
+/* ─── Component: Card ────────────────────────────────────────── */
+.card {
+  background:  var(--card-bg);
+  border:      1px solid var(--card-border);
+  border-radius: var(--radius-none);
+  padding:     var(--sp-4);
+}
+
+/* ─── Component: Risk Badge ──────────────────────────────────── */
+.badge { display: inline-flex; align-items: center; gap: 4px;
+         font-family: var(--font-mono); font-size: var(--text-xs);
+         font-weight: var(--fw-medium); letter-spacing: var(--ls-wide);
+         padding: 2px 8px; border-radius: var(--radius-badge); }
+.badge-high   { background: var(--risk-high-dim); color: var(--risk-high); border: 1px solid var(--risk-high); }
+.badge-medium { background: var(--risk-med-dim);  color: var(--risk-med);  border: 1px solid var(--risk-med);  }
+.badge-low    { background: var(--risk-low-dim);  color: var(--risk-low);  border: 1px solid var(--risk-low);  }
+.badge-accent { background: var(--accent-dim);    color: var(--accent-text); border: 1px solid var(--accent); }
+
+/* ─── Component: Button ──────────────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; gap: var(--sp-2);
+  font-family: var(--font-body); font-size: var(--text-sm);
+  font-weight: var(--fw-medium); cursor: pointer;
+  padding: 7px 14px; border-radius: var(--radius-none);
+  border: 1px solid transparent; transition: background var(--transition-fast);
+}
+.btn-primary   { background: var(--accent);       color: #fff;         border-color: var(--accent); }
+.btn-primary:hover { background: var(--accent-hover); }
+.btn-secondary { background: transparent;         color: var(--fg-1);  border-color: var(--border-strong); }
+.btn-secondary:hover { background: var(--bg-elevated); }
+.btn-ghost     { background: transparent;         color: var(--fg-2);  border-color: transparent; }
+.btn-ghost:hover { background: var(--bg-elevated); color: var(--fg-1); }
+.btn-danger    { background: var(--risk-high);    color: #fff;         border-color: var(--risk-high); }
+
+/* ─── Component: Input ───────────────────────────────────────── */
+.input {
+  background: var(--input-bg); border: 1px solid var(--input-border);
+  color: var(--fg-1); font-family: var(--font-body); font-size: var(--text-sm);
+  padding: 7px 12px; border-radius: var(--radius-none); outline: none; width: 100%;
+  transition: border-color var(--transition-fast);
+}
+.input::placeholder { color: var(--fg-3); }
+.input:focus { border-color: var(--border-focus); }
+
+/* ─── Component: Table ───────────────────────────────────────── */
+.table { width: 100%; border-collapse: collapse; }
+.table th {
+  font-family: var(--font-mono); font-size: var(--text-xs); font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-wider); color: var(--fg-3); text-align: left;
+  padding: 8px 12px; border-bottom: 1px solid var(--border);
+  text-transform: uppercase;
+}
+.table td {
+  padding: 10px 12px; font-size: var(--text-sm); color: var(--fg-1);
+  border-bottom: 1px solid var(--border);
+}
+.table tr:nth-child(even) td { background: var(--bg-surface); }
+.table tr:hover td { background: var(--bg-elevated); cursor: pointer; }
+
+/* ─── Component: Sidebar Nav ─────────────────────────────────── */
+.nav-item {
+  display: flex; align-items: center; gap: var(--sp-3);
+  height: 36px; padding: 0 var(--sp-4);
+  font-size: var(--text-sm); color: var(--fg-2);
+  cursor: pointer; transition: background var(--transition-fast), color var(--transition-fast);
+  border-left: 2px solid transparent;
+}
+.nav-item:hover  { background: var(--bg-elevated); color: var(--fg-1); }
+.nav-item.active { background: var(--bg-elevated); color: var(--fg-1); border-left-color: var(--accent); }
+
+/* ─── Utility ────────────────────────────────────────────────── */
+.text-muted  { color: var(--fg-2); }
+.text-dim    { color: var(--fg-3); }
+.text-accent { color: var(--accent); }
+.text-mono   { font-family: var(--font-mono); }
+.divider     { height: 1px; background: var(--border); margin: var(--sp-4) 0; }

@@ -1,0 +1,501 @@
+student_id,name,age,gender,major,enrollment_year,gpa_start,archetype
+STU0001,Sneha Reddy,20,Female,Electronics,2024,6.5,4
+STU0002,Neha Shah,18,Male,Mathematics,2022,5.8,0
+STU0003,Sneha Verma,22,Female,Mechanical,2021,6.6,2
+STU0004,Tariq Reddy,17,Female,Data Science,2023,3.6,3
+STU0005,Suresh Davis,15,Male,Mathematics,2024,8.5,0
+STU0006,Zara Ansari,19,Male,Mechanical,2023,2.8,4
+STU0007,Vihaan Shah,19,Female,Computer Science,2023,7.1,2
+STU0008,Fatima Johnson,20,Male,Computer Science,2023,4.9,6
+STU0009,Aditya Shah,18,Male,Data Science,2021,5.0,1
+STU0010,Olivia Shah,18,Female,Mechanical,2022,6.0,0
+STU0011,Isabella Sharma,21,Male,Computer Science,2022,6.7,2
+STU0012,Shreya Malik,15,Female,Mathematics,2024,3.5,0
+STU0013,Aarav Smith,22,Male,Civil,2021,6.7,6
+STU0014,Amir Davis,17,Female,Mechanical,2023,6.2,0
+STU0015,Ayaan Ansari,19,Male,Data Science,2022,4.0,3
+STU0016,Meera Joshi,20,Male,Mechanical,2022,6.4,2
+STU0017,Ishaan Rao,18,Female,Electronics,2022,4.4,1
+STU0018,Sophia Davis,22,Female,Electronics,2022,5.8,0
+STU0019,Vijay Ali,19,Male,Computer Science,2022,4.4,2
+STU0020,Riya Chaudhary,20,Male,Electronics,2023,5.7,2
+STU0021,Shreya Hassan,16,Female,Data Science,2022,5.0,0
+STU0022,Olivia Moore,22,Female,Computer Science,2023,8.3,5
+STU0023,Ananya Mirza,19,Non-binary,Data Science,2022,4.7,0
+STU0024,Lakshmi Ali,17,Non-binary,Mathematics,2023,6.1,1
+STU0025,Vivaan Patel,22,Female,Data Science,2023,4.4,2
+STU0026,Kavya Rao,20,Male,Electronics,2024,6.5,0
+STU0027,Lakshmi Johnson,17,Female,Mathematics,2022,6.6,5
+STU0028,Nandini Davis,19,Female,Electronics,2021,4.2,1
+STU0029,Aarav Brown,16,Male,Data Science,2024,3.5,0
+STU0030,Ava Jones,17,Male,Electronics,2021,5.0,1
+STU0031,Ava Taylor,18,Male,Electronics,2024,3.3,2
+STU0032,Omar Patel,20,Male,Electronics,2021,4.7,2
+STU0033,Nandini Smith,19,Male,Mechanical,2023,6.5,3
+STU0034,Ananya Rao,16,Female,Mathematics,2021,3.2,0
+STU0035,Omar Ahmed,18,Female,Mathematics,2024,4.2,0
+STU0036,Kiran Williams,19,Female,Mathematics,2023,5.6,4
+STU0037,Neha Shah,22,Male,Data Science,2022,4.8,0
+STU0038,Rahul Singh,21,Male,Civil,2021,9.0,4
+STU0039,Neha Mirza,16,Female,Data Science,2022,6.5,0
+STU0040,Yusuf Reddy,18,Male,Mathematics,2023,4.4,4
+STU0041,Mia Brown,17,Female,Computer Science,2022,1.7,1
+STU0042,Ayaan Ansari,19,Non-binary,Electronics,2021,4.8,2
+STU0043,Amara Joshi,19,Male,Electronics,2023,8.7,0
+STU0044,Sneha Kumar,17,Male,Civil,2022,1.9,0
+STU0045,Pooja Gupta,21,Male,Computer Science,2021,3.5,0
+STU0046,Arjun Verma,15,Non-binary,Mechanical,2021,6.1,0
+STU0047,Krishna Verma,18,Female,Data Science,2023,3.7,0
+STU0048,Amara Mirza,17,Female,Mechanical,2024,5.7,2
+STU0049,Ishaan Taylor,22,Male,Computer Science,2021,7.8,2
+STU0050,Rahul Kumar,19,Non-binary,Civil,2023,3.3,4
+STU0051,Isabella Brown,22,Male,Computer Science,2020,5.7,3
+STU0052,Shreya Nair,18,Male,Civil,2022,5.8,2
+STU0053,Aarav Chaudhary,21,Female,Mechanical,2023,5.1,1
+STU0054,Yusuf Brown,18,Female,Mechanical,2022,4.2,2
+STU0055,Sneha Verma,22,Male,Computer Science,2023,7.7,1
+STU0056,Krishna Khan,22,Male,Computer Science,2024,2.1,4
+STU0057,Olivia Davis,15,Male,Electronics,2024,4.7,0
+STU0058,Ananya Smith,19,Male,Civil,2021,6.8,0
+STU0059,Aditya Shah,16,Male,Electronics,2022,7.0,3
+STU0060,Rohan Rao,15,Non-binary,Data Science,2024,8.5,0
+STU0061,Noah Hassan,15,Female,Data Science,2022,3.4,5
+STU0062,Sai Patel,16,Female,Computer Science,2023,8.5,4
+STU0063,Anjali Williams,16,Female,Mechanical,2022,5.5,0
+STU0064,Charlotte Sharma,21,Female,Data Science,2022,5.1,0
+STU0065,Vihaan Miller,21,Female,Data Science,2021,4.7,2
+STU0066,Vihaan Moore,15,Female,Electronics,2024,8.2,2
+STU0067,Sophia Taylor,18,Male,Electronics,2024,3.0,0
+STU0068,Riya Nair,17,Female,Data Science,2022,3.7,3
+STU0069,Neha Ahmed,17,Female,Computer Science,2024,8.4,2
+STU0070,Lakshmi Chaudhary,15,Female,Electronics,2022,5.9,0
+STU0071,Tanvi Sharma,18,Non-binary,Data Science,2020,4.5,0
+STU0072,Pooja Patel,16,Male,Mechanical,2023,4.4,3
+STU0073,Noor Mirza,20,Female,Electronics,2023,5.8,0
+STU0074,Sophia Miller,15,Male,Data Science,2022,5.8,4
+STU0075,Kiran Siddiqui,19,Female,Civil,2022,2.7,1
+STU0076,Arjun Patel,18,Male,Electronics,2024,8.2,2
+STU0077,Mia Singh,19,Male,Civil,2024,8.7,5
+STU0078,Kavya Taylor,19,Male,Electronics,2024,4.2,5
+STU0079,Aryan Brown,15,Female,Electronics,2021,3.2,1
+STU0080,Aditya Ahmed,18,Male,Mathematics,2023,2.8,0
+STU0081,Reyansh Jones,19,Female,Mathematics,2021,4.2,3
+STU0082,Aditya Shah,21,Male,Civil,2024,6.0,1
+STU0083,Anjali Ansari,22,Female,Computer Science,2020,2.4,0
+STU0084,Anjali Rao,21,Female,Data Science,2022,2.0,5
+STU0085,Liam Williams,18,Male,Computer Science,2022,5.8,0
+STU0086,Mia Nair,17,Male,Computer Science,2024,5.3,0
+STU0087,Sophia Mirza,22,Female,Mathematics,2023,4.5,0
+STU0088,Charlotte Hassan,20,Female,Data Science,2022,7.2,2
+STU0089,Vihaan Mirza,19,Female,Mathematics,2023,3.1,3
+STU0090,Vijay Hassan,19,Male,Mathematics,2024,5.0,0
+STU0091,Hassan Patel,18,Female,Mathematics,2020,4.2,0
+STU0092,Divya Sharma,21,Non-binary,Mechanical,2024,5.4,1
+STU0093,Mia Wilson,20,Male,Computer Science,2024,3.9,3
+STU0094,Tanvi Nair,17,Male,Computer Science,2020,8.5,0
+STU0095,Vijay Davis,19,Male,Computer Science,2020,7.6,5
+STU0096,Omar Chaudhary,15,Female,Mechanical,2022,5.9,0
+STU0097,Neha Ahmed,21,Female,Electronics,2020,4.3,6
+STU0098,Ishaan Malik,18,Male,Civil,2022,5.5,0
+STU0099,Sai Malik,18,Male,Civil,2023,4.1,3
+STU0100,Priya Davis,21,Male,Mechanical,2023,5.2,0
+STU0101,Aditya Wilson,19,Male,Computer Science,2021,7.4,0
+STU0102,Amara Shah,17,Male,Civil,2023,6.8,5
+STU0103,Divya Rao,19,Non-binary,Mechanical,2023,5.2,4
+STU0104,Yusuf Chaudhary,21,Male,Mathematics,2024,5.3,1
+STU0105,Reyansh Wilson,22,Male,Data Science,2021,4.6,3
+STU0106,Isabella Ahmed,16,Female,Civil,2023,5.2,2
+STU0107,Kavya Shah,19,Female,Data Science,2024,6.4,4
+STU0108,Ava Wilson,20,Female,Computer Science,2023,4.8,0
+STU0109,Pooja Hassan,22,Male,Civil,2022,3.9,2
+STU0110,Priya Brown,21,Male,Mechanical,2021,2.0,2
+STU0111,Omar Kumar,22,Female,Electronics,2024,8.2,1
+STU0112,Olivia Patel,20,Female,Civil,2022,4.3,5
+STU0113,Sneha Rao,22,Male,Civil,2024,8.8,0
+STU0114,Suresh Ahmed,22,Female,Civil,2024,7.6,0
+STU0115,Riya Moore,21,Female,Civil,2022,6.1,2
+STU0116,Anjali Williams,16,Male,Mechanical,2023,1.8,3
+STU0117,Yasmin Smith,20,Female,Mechanical,2020,4.1,0
+STU0118,Noor Khan,20,Female,Electronics,2022,4.9,1
+STU0119,Ishaan Nair,15,Male,Mechanical,2023,2.9,6
+STU0120,Ananya Taylor,18,Female,Mechanical,2023,5.9,0
+STU0121,Noah Ansari,20,Female,Computer Science,2022,2.2,3
+STU0122,Shreya Johnson,18,Female,Computer Science,2024,5.3,3
+STU0123,Rohan Sharma,21,Male,Data Science,2021,5.0,1
+STU0124,Amir Khan,17,Male,Electronics,2022,4.6,5
+STU0125,Pooja Kumar,19,Female,Computer Science,2022,8.3,3
+STU0126,Tariq Johnson,15,Male,Electronics,2022,3.8,1
+STU0127,Kiran Davis,21,Male,Electronics,2024,5.5,2
+STU0128,Leila Johnson,16,Male,Civil,2023,2.5,3
+STU0129,Noah Davis,17,Male,Mathematics,2023,3.3,2
+STU0130,Amara Miller,22,Non-binary,Mathematics,2023,8.5,5
+STU0131,Mia Williams,15,Male,Mathematics,2021,3.7,1
+STU0132,Fatima Williams,15,Non-binary,Electronics,2022,7.8,0
+STU0133,Vivaan Patel,21,Male,Civil,2023,5.9,0
+STU0134,Isabella Williams,16,Female,Data Science,2024,6.6,0
+STU0135,Anjali Mirza,16,Male,Data Science,2024,5.0,0
+STU0136,Leila Wilson,18,Female,Mathematics,2022,6.4,5
+STU0137,Aditya Verma,19,Female,Data Science,2022,5.9,3
+STU0138,Reyansh Kumar,21,Male,Civil,2020,1.3,3
+STU0139,Anjali Williams,17,Female,Mathematics,2021,5.0,2
+STU0140,Sophia Chaudhary,19,Male,Civil,2022,6.4,4
+STU0141,Ava Williams,17,Female,Data Science,2023,6.3,2
+STU0142,Yusuf Malik,15,Non-binary,Mathematics,2022,6.8,5
+STU0143,Noor Patel,20,Female,Civil,2023,6.1,1
+STU0144,Yasmin Sharma,20,Female,Mechanical,2023,6.1,5
+STU0145,Lakshmi Davis,21,Male,Mechanical,2022,4.0,3
+STU0146,Charlotte Khan,16,Male,Civil,2023,5.9,0
+STU0147,Pooja Malik,16,Male,Civil,2021,7.4,2
+STU0148,Amir Chaudhary,22,Female,Computer Science,2023,5.4,2
+STU0149,Hassan Rao,15,Female,Computer Science,2024,4.0,0
+STU0150,Riya Joshi,15,Male,Electronics,2023,4.6,2
+STU0151,Ayaan Ahmed,17,Female,Mathematics,2024,6.5,0
+STU0152,Emma Moore,15,Male,Electronics,2020,7.4,0
+STU0153,Liam Siddiqui,22,Male,Electronics,2023,8.7,6
+STU0154,Zara Kumar,21,Female,Data Science,2023,4.1,2
+STU0155,Hassan Ansari,17,Male,Mechanical,2023,3.4,5
+STU0156,Mia Mirza,19,Female,Data Science,2024,4.1,3
+STU0157,Aryan Brown,16,Male,Mathematics,2023,3.2,1
+STU0158,Rahul Jones,16,Female,Civil,2023,6.2,2
+STU0159,Ava Verma,20,Male,Computer Science,2022,3.9,3
+STU0160,Ishaan Davis,20,Male,Mathematics,2022,4.9,6
+STU0161,Tariq Ali,22,Female,Civil,2023,4.1,0
+STU0162,Aarav Mirza,21,Female,Mathematics,2023,4.6,5
+STU0163,Yasmin Jones,16,Male,Civil,2024,5.0,5
+STU0164,Meera Gupta,22,Male,Computer Science,2021,8.5,3
+STU0165,Nandini Kumar,21,Female,Civil,2022,4.2,5
+STU0166,Sai Davis,19,Male,Electronics,2023,5.2,1
+STU0167,Amir Verma,19,Female,Mathematics,2024,5.5,6
+STU0168,Mia Nair,18,Female,Computer Science,2024,6.9,3
+STU0169,Yusuf Mirza,17,Male,Civil,2022,7.7,0
+STU0170,Shreya Malik,20,Male,Electronics,2020,3.9,5
+STU0171,Krishna Shah,17,Female,Electronics,2022,2.9,2
+STU0172,Sophia Ansari,20,Male,Mechanical,2022,6.8,2
+STU0173,Riya Reddy,18,Female,Electronics,2024,3.8,2
+STU0174,Liam Shah,16,Male,Data Science,2022,3.0,0
+STU0175,Rohan Jones,22,Female,Computer Science,2022,9.2,2
+STU0176,Amara Siddiqui,21,Male,Computer Science,2022,7.8,4
+STU0177,Anjali Davis,17,Female,Computer Science,2022,3.7,0
+STU0178,Omar Johnson,20,Male,Civil,2024,7.2,0
+STU0179,Sai Kumar,17,Male,Mathematics,2020,3.4,0
+STU0180,Fatima Moore,16,Female,Civil,2022,7.2,1
+STU0181,Zara Singh,21,Male,Data Science,2024,5.0,3
+STU0182,Aarav Ali,15,Male,Mathematics,2021,6.6,4
+STU0183,Pooja Shah,20,Male,Electronics,2023,6.8,6
+STU0184,Rohan Hassan,22,Male,Civil,2022,4.7,2
+STU0185,Omar Verma,15,Female,Mathematics,2023,5.2,0
+STU0186,Kavya Brown,18,Female,Electronics,2020,4.1,5
+STU0187,Nandini Verma,21,Male,Mathematics,2022,6.1,3
+STU0188,Aditya Taylor,19,Female,Electronics,2023,2.0,2
+STU0189,Olivia Davis,17,Female,Mathematics,2021,4.8,3
+STU0190,Anjali Ansari,20,Female,Civil,2023,4.8,5
+STU0191,Shreya Singh,22,Male,Civil,2021,4.3,3
+STU0192,Vijay Davis,17,Female,Data Science,2023,5.9,1
+STU0193,Suresh Davis,18,Female,Mechanical,2024,4.1,3
+STU0194,Reyansh Verma,18,Female,Computer Science,2020,2.7,0
+STU0195,Omar Gupta,17,Male,Civil,2021,5.4,1
+STU0196,Olivia Ansari,20,Male,Civil,2024,5.5,1
+STU0197,Tariq Mirza,22,Female,Electronics,2023,5.9,0
+STU0198,Shreya Moore,21,Male,Mechanical,2020,6.7,0
+STU0199,Ava Miller,16,Female,Civil,2022,5.8,0
+STU0200,Aryan Reddy,21,Male,Mathematics,2021,3.7,3
+STU0201,Anjali Smith,16,Female,Mechanical,2021,4.9,4
+STU0202,Yusuf Johnson,22,Female,Computer Science,2024,8.9,6
+STU0203,Ayaan Shah,19,Female,Mathematics,2023,7.7,1
+STU0204,Amir Gupta,21,Female,Electronics,2023,7.7,2
+STU0205,Vihaan Khan,22,Female,Data Science,2021,6.2,5
+STU0206,Lakshmi Rao,17,Male,Mathematics,2021,5.4,0
+STU0207,Amir Taylor,17,Female,Computer Science,2024,2.4,3
+STU0208,Pooja Joshi,20,Male,Mathematics,2020,7.0,3
+STU0209,Meera Shah,17,Female,Mechanical,2022,4.0,0
+STU0210,Charlotte Nair,20,Male,Mechanical,2022,2.5,5
+STU0211,Fatima Miller,22,Female,Computer Science,2023,4.4,4
+STU0212,Emma Miller,17,Female,Mechanical,2022,6.9,0
+STU0213,Divya Kumar,18,Male,Mathematics,2022,3.2,0
+STU0214,Sneha Nair,15,Male,Data Science,2024,5.6,0
+STU0215,Arjun Siddiqui,22,Non-binary,Mathematics,2023,5.8,1
+STU0216,Kiran Singh,17,Male,Data Science,2021,7.0,2
+STU0217,Suresh Smith,15,Male,Mechanical,2023,6.5,2
+STU0218,Olivia Joshi,16,Male,Mathematics,2021,5.0,0
+STU0219,Vijay Rao,19,Non-binary,Mechanical,2022,4.2,5
+STU0220,Sophia Taylor,21,Non-binary,Data Science,2023,6.3,1
+STU0221,Tanvi Singh,21,Female,Mechanical,2022,3.8,0
+STU0222,Kiran Brown,22,Female,Civil,2022,4.5,0
+STU0223,Mia Johnson,16,Male,Electronics,2023,4.8,2
+STU0224,Suresh Ansari,17,Non-binary,Mathematics,2024,5.2,1
+STU0225,Liam Williams,21,Male,Civil,2023,5.0,0
+STU0226,Charlotte Sharma,20,Male,Mechanical,2020,7.2,0
+STU0227,Tanvi Kumar,16,Male,Mechanical,2022,6.5,4
+STU0228,Aryan Davis,18,Female,Electronics,2022,5.2,6
+STU0229,Mia Hassan,15,Female,Mechanical,2022,6.7,0
+STU0230,Divya Rao,20,Male,Electronics,2022,5.1,1
+STU0231,Neha Ansari,21,Non-binary,Mathematics,2023,3.3,2
+STU0232,Liam Sharma,20,Male,Data Science,2021,4.7,3
+STU0233,Ava Wilson,17,Male,Electronics,2022,6.3,1
+STU0234,Meera Malik,18,Male,Electronics,2023,7.5,5
+STU0235,Lakshmi Reddy,15,Female,Civil,2022,7.1,2
+STU0236,Zara Malik,18,Female,Mechanical,2024,7.2,1
+STU0237,Priya Joshi,16,Male,Mathematics,2022,6.9,2
+STU0238,Aarav Taylor,17,Female,Data Science,2024,5.1,6
+STU0239,Ananya Jones,20,Male,Computer Science,2024,5.0,4
+STU0240,Isabella Wilson,20,Female,Electronics,2024,4.3,0
+STU0241,Yusuf Davis,16,Non-binary,Computer Science,2020,5.6,1
+STU0242,Kavya Sharma,20,Male,Mechanical,2024,7.0,2
+STU0243,Liam Reddy,19,Female,Electronics,2021,2.0,0
+STU0244,Charlotte Brown,17,Female,Computer Science,2020,7.2,3
+STU0245,Fatima Hassan,16,Male,Civil,2022,3.5,4
+STU0246,Aryan Rao,17,Female,Computer Science,2021,5.1,3
+STU0247,Tariq Verma,15,Female,Civil,2021,3.9,6
+STU0248,Mia Rao,17,Male,Data Science,2022,6.6,0
+STU0249,Ava Jones,17,Male,Mechanical,2021,6.7,5
+STU0250,Yasmin Miller,15,Male,Mathematics,2023,3.6,3
+STU0251,Ishaan Siddiqui,16,Female,Computer Science,2021,4.7,1
+STU0252,Leila Ahmed,17,Female,Electronics,2023,7.5,3
+STU0253,Pooja Malik,18,Female,Mechanical,2024,4.7,0
+STU0254,Vivaan Moore,17,Male,Computer Science,2022,4.8,4
+STU0255,Vihaan Smith,16,Male,Electronics,2023,4.2,2
+STU0256,Yasmin Moore,22,Male,Electronics,2024,6.1,0
+STU0257,Omar Chaudhary,20,Female,Mathematics,2021,4.9,3
+STU0258,Ishaan Miller,21,Non-binary,Mathematics,2022,7.2,2
+STU0259,Amara Shah,15,Female,Electronics,2024,7.9,0
+STU0260,Hassan Smith,20,Male,Mathematics,2024,4.1,0
+STU0261,Amara Hassan,16,Female,Electronics,2023,5.6,1
+STU0262,Yusuf Wilson,19,Female,Computer Science,2021,5.5,2
+STU0263,Rahul Joshi,21,Male,Data Science,2024,4.2,5
+STU0264,Ava Mirza,20,Female,Mathematics,2021,6.7,5
+STU0265,Kavya Siddiqui,17,Male,Civil,2022,4.6,2
+STU0266,Aditya Moore,21,Male,Civil,2022,6.6,3
+STU0267,Shreya Chaudhary,17,Male,Civil,2022,3.9,1
+STU0268,Divya Nair,15,Male,Data Science,2023,7.9,3
+STU0269,Sneha Sharma,17,Male,Electronics,2024,4.8,0
+STU0270,Kavya Malik,21,Male,Electronics,2023,7.5,1
+STU0271,Yasmin Patel,18,Male,Mechanical,2020,5.3,2
+STU0272,Shreya Johnson,18,Female,Civil,2023,1.8,0
+STU0273,Kavya Singh,22,Non-binary,Civil,2023,5.7,3
+STU0274,Emma Reddy,20,Female,Electronics,2022,4.2,4
+STU0275,Tanvi Moore,16,Male,Civil,2024,4.8,1
+STU0276,Vivaan Patel,22,Male,Electronics,2024,2.7,1
+STU0277,Rahul Nair,15,Male,Electronics,2023,6.6,4
+STU0278,Suresh Mirza,19,Male,Mathematics,2020,8.7,3
+STU0279,Rohan Moore,22,Female,Electronics,2023,7.5,0
+STU0280,Tanvi Joshi,20,Female,Computer Science,2024,6.4,0
+STU0281,Hassan Jones,16,Female,Computer Science,2022,4.5,3
+STU0282,Krishna Verma,15,Female,Computer Science,2024,6.3,2
+STU0283,Hassan Davis,21,Male,Computer Science,2022,4.6,0
+STU0284,Sophia Malik,15,Male,Data Science,2023,5.6,0
+STU0285,Sophia Ali,21,Female,Mechanical,2023,4.2,5
+STU0286,Aryan Davis,20,Male,Mechanical,2023,4.0,3
+STU0287,Riya Nair,16,Male,Electronics,2024,5.2,6
+STU0288,Neha Verma,22,Male,Civil,2021,7.5,3
+STU0289,Anjali Siddiqui,16,Male,Computer Science,2022,6.6,6
+STU0290,Riya Williams,17,Male,Mechanical,2023,7.7,0
+STU0291,Fatima Miller,19,Female,Mechanical,2021,4.8,3
+STU0292,Suresh Smith,18,Female,Computer Science,2022,7.1,0
+STU0293,Hassan Singh,17,Male,Data Science,2020,7.2,3
+STU0294,Amir Verma,15,Male,Data Science,2021,6.8,2
+STU0295,Kiran Rao,19,Female,Mechanical,2023,5.4,1
+STU0296,Neha Shah,19,Male,Data Science,2023,6.8,5
+STU0297,Suresh Patel,16,Male,Mathematics,2021,3.4,4
+STU0298,Divya Wilson,19,Male,Computer Science,2021,5.7,0
+STU0299,Vihaan Ansari,20,Male,Mechanical,2020,6.9,2
+STU0300,Neha Sharma,19,Female,Computer Science,2022,7.2,1
+STU0301,Emma Patel,15,Female,Data Science,2021,4.2,1
+STU0302,Ava Singh,20,Male,Computer Science,2022,5.6,4
+STU0303,Kavya Wilson,20,Male,Data Science,2023,3.4,0
+STU0304,Shreya Patel,17,Male,Data Science,2023,7.5,6
+STU0305,Noor Khan,19,Male,Computer Science,2022,7.5,0
+STU0306,Divya Sharma,16,Non-binary,Data Science,2023,7.2,3
+STU0307,Vivaan Patel,21,Female,Mathematics,2024,6.0,3
+STU0308,Anjali Gupta,17,Female,Electronics,2022,6.7,0
+STU0309,Vihaan Ali,16,Female,Computer Science,2022,5.7,0
+STU0310,Rahul Davis,19,Female,Electronics,2023,4.7,4
+STU0311,Vijay Singh,17,Female,Computer Science,2021,6.8,3
+STU0312,Riya Rao,19,Male,Data Science,2023,5.2,0
+STU0313,Lakshmi Smith,15,Male,Data Science,2024,5.4,2
+STU0314,Sneha Miller,17,Female,Mechanical,2022,3.9,0
+STU0315,Zara Sharma,16,Male,Mathematics,2023,4.2,0
+STU0316,Sai Khan,15,Non-binary,Mechanical,2023,2.7,2
+STU0317,Emma Verma,18,Female,Electronics,2020,5.8,0
+STU0318,Riya Smith,16,Female,Data Science,2021,7.5,4
+STU0319,Rohan Smith,21,Male,Mechanical,2024,5.3,3
+STU0320,Lakshmi Smith,22,Female,Data Science,2024,5.2,6
+STU0321,Nandini Kumar,19,Male,Computer Science,2023,8.3,3
+STU0322,Divya Ansari,16,Non-binary,Mechanical,2024,5.3,6
+STU0323,Anjali Jones,18,Male,Electronics,2022,6.4,2
+STU0324,Divya Taylor,16,Female,Mechanical,2021,7.6,2
+STU0325,Sneha Wilson,15,Female,Data Science,2022,3.7,6
+STU0326,Nandini Chaudhary,20,Male,Civil,2020,5.6,2
+STU0327,Aarav Joshi,22,Male,Civil,2024,7.4,0
+STU0328,Nandini Mirza,16,Non-binary,Mathematics,2024,6.4,3
+STU0329,Aarav Reddy,17,Male,Data Science,2024,7.0,5
+STU0330,Kavya Smith,21,Female,Computer Science,2023,7.1,4
+STU0331,Kiran Shah,18,Male,Mechanical,2022,5.0,2
+STU0332,Yasmin Verma,16,Female,Civil,2021,7.3,3
+STU0333,Noor Verma,18,Female,Computer Science,2022,5.6,6
+STU0334,Liam Chaudhary,20,Male,Data Science,2023,5.0,0
+STU0335,Vihaan Ali,15,Male,Computer Science,2022,6.5,3
+STU0336,Yusuf Kumar,17,Female,Data Science,2024,7.0,0
+STU0337,Aarav Sharma,19,Male,Mathematics,2024,4.2,2
+STU0338,Reyansh Nair,16,Male,Mechanical,2021,8.7,2
+STU0339,Aarav Malik,15,Female,Computer Science,2021,6.7,0
+STU0340,Lakshmi Johnson,22,Male,Mechanical,2023,6.6,0
+STU0341,Tariq Joshi,18,Male,Computer Science,2021,7.8,2
+STU0342,Vivaan Nair,20,Female,Data Science,2023,7.6,0
+STU0343,Vihaan Ahmed,21,Male,Data Science,2023,5.7,0
+STU0344,Neha Johnson,18,Male,Computer Science,2021,6.8,4
+STU0345,Fatima Ahmed,21,Male,Mathematics,2022,8.1,0
+STU0346,Fatima Siddiqui,20,Female,Data Science,2022,5.7,2
+STU0347,Ayaan Verma,21,Female,Electronics,2024,6.4,6
+STU0348,Tanvi Malik,20,Female,Electronics,2020,4.5,0
+STU0349,Olivia Chaudhary,15,Male,Mechanical,2024,6.7,1
+STU0350,Lakshmi Wilson,16,Male,Electronics,2023,7.0,2
+STU0351,Sneha Shah,19,Male,Electronics,2023,3.8,3
+STU0352,Kavya Khan,16,Male,Mathematics,2020,4.3,5
+STU0353,Arjun Malik,22,Female,Mathematics,2023,8.4,5
+STU0354,Pooja Rao,22,Male,Civil,2023,4.8,3
+STU0355,Leila Patel,17,Male,Civil,2023,6.3,0
+STU0356,Noor Siddiqui,16,Male,Mathematics,2023,6.2,0
+STU0357,Ayaan Shah,20,Female,Civil,2023,6.1,1
+STU0358,Ishaan Taylor,20,Female,Mathematics,2024,7.0,0
+STU0359,Arjun Mirza,17,Female,Civil,2021,6.6,3
+STU0360,Noor Smith,18,Female,Data Science,2024,6.2,3
+STU0361,Rahul Johnson,20,Female,Mathematics,2021,5.1,0
+STU0362,Hassan Williams,17,Male,Mechanical,2024,5.8,4
+STU0363,Divya Nair,20,Male,Mechanical,2024,2.5,0
+STU0364,Amir Mirza,19,Female,Mathematics,2022,3.7,1
+STU0365,Vijay Ali,20,Female,Electronics,2023,5.7,3
+STU0366,Sophia Brown,15,Female,Mechanical,2023,4.1,1
+STU0367,Hassan Sharma,17,Female,Electronics,2020,6.7,1
+STU0368,Riya Wilson,21,Female,Mechanical,2022,4.6,0
+STU0369,Noor Taylor,22,Female,Computer Science,2022,4.8,1
+STU0370,Hassan Nair,16,Female,Computer Science,2024,7.7,3
+STU0371,Yusuf Chaudhary,17,Female,Mathematics,2024,5.2,5
+STU0372,Kavya Kumar,18,Male,Mechanical,2023,4.1,1
+STU0373,Shreya Siddiqui,20,Female,Data Science,2023,9.2,1
+STU0374,Reyansh Miller,17,Female,Electronics,2023,3.2,3
+STU0375,Aditya Sharma,19,Male,Mechanical,2022,4.4,6
+STU0376,Hassan Shah,17,Female,Mathematics,2022,6.7,0
+STU0377,Priya Rao,19,Female,Electronics,2023,5.0,1
+STU0378,Vivaan Davis,22,Male,Civil,2024,5.8,4
+STU0379,Vihaan Chaudhary,22,Female,Mathematics,2023,5.5,2
+STU0380,Kavya Wilson,20,Male,Mechanical,2023,3.5,0
+STU0381,Suresh Reddy,16,Non-binary,Data Science,2023,7.4,2
+STU0382,Neha Hassan,20,Female,Civil,2022,2.9,0
+STU0383,Aryan Moore,18,Male,Mathematics,2023,8.0,2
+STU0384,Vihaan Joshi,15,Male,Mechanical,2022,7.4,2
+STU0385,Anjali Siddiqui,16,Female,Computer Science,2022,4.9,5
+STU0386,Sneha Moore,16,Male,Mechanical,2023,6.8,2
+STU0387,Ava Singh,22,Male,Computer Science,2023,3.0,0
+STU0388,Sai Miller,15,Female,Computer Science,2022,5.7,0
+STU0389,Neha Verma,17,Male,Mathematics,2023,4.7,5
+STU0390,Leila Ali,20,Male,Mechanical,2023,2.5,0
+STU0391,Noor Mirza,17,Female,Mechanical,2023,6.6,1
+STU0392,Ayaan Williams,17,Female,Computer Science,2024,4.8,0
+STU0393,Vivaan Ahmed,20,Female,Electronics,2022,6.9,3
+STU0394,Charlotte Jones,18,Female,Civil,2024,7.6,2
+STU0395,Rohan Mirza,16,Male,Data Science,2023,3.4,1
+STU0396,Noor Kumar,19,Male,Mechanical,2023,5.0,1
+STU0397,Noor Mirza,15,Male,Civil,2023,5.1,4
+STU0398,Isabella Miller,16,Female,Civil,2021,4.6,2
+STU0399,Ava Malik,17,Female,Electronics,2020,3.2,3
+STU0400,Neha Williams,15,Female,Civil,2023,7.8,5
+STU0401,Rohan Ahmed,19,Female,Mechanical,2023,4.9,5
+STU0402,Sophia Shah,16,Female,Mathematics,2023,8.2,0
+STU0403,Rahul Reddy,16,Male,Mathematics,2022,6.2,6
+STU0404,Reyansh Hassan,18,Male,Civil,2022,7.5,0
+STU0405,Mia Johnson,16,Male,Mechanical,2022,4.3,1
+STU0406,Mia Williams,16,Male,Mechanical,2023,6.1,5
+STU0407,Suresh Ansari,19,Female,Computer Science,2022,8.6,0
+STU0408,Zara Ansari,19,Male,Electronics,2023,6.3,0
+STU0409,Leila Rao,15,Female,Data Science,2022,5.9,0
+STU0410,Mia Taylor,17,Female,Computer Science,2023,2.0,2
+STU0411,Rahul Verma,19,Male,Data Science,2021,6.1,1
+STU0412,Reyansh Gupta,15,Male,Mechanical,2021,7.4,3
+STU0413,Aarav Hassan,16,Male,Mathematics,2023,6.5,5
+STU0414,Lakshmi Ahmed,22,Male,Computer Science,2023,8.4,3
+STU0415,Tanvi Reddy,15,Female,Civil,2021,7.1,0
+STU0416,Ayaan Rao,22,Male,Civil,2024,3.7,5
+STU0417,Liam Chaudhary,15,Female,Data Science,2022,4.9,0
+STU0418,Isabella Shah,15,Female,Mechanical,2022,9.1,0
+STU0419,Pooja Jones,22,Female,Mathematics,2021,5.5,0
+STU0420,Noor Reddy,20,Female,Data Science,2022,2.0,2
+STU0421,Riya Shah,15,Male,Mathematics,2022,2.9,0
+STU0422,Olivia Joshi,22,Male,Electronics,2022,4.7,0
+STU0423,Suresh Jones,19,Male,Mathematics,2023,4.9,0
+STU0424,Ayaan Malik,21,Male,Civil,2022,4.5,0
+STU0425,Tariq Ahmed,21,Female,Computer Science,2023,3.8,2
+STU0426,Pooja Ansari,21,Female,Computer Science,2021,4.7,4
+STU0427,Divya Brown,21,Male,Computer Science,2022,5.4,3
+STU0428,Charlotte Hassan,20,Male,Mathematics,2020,1.9,0
+STU0429,Vijay Khan,17,Male,Civil,2023,7.8,0
+STU0430,Sai Taylor,22,Female,Mathematics,2023,4.9,6
+STU0431,Tanvi Moore,15,Female,Mechanical,2024,5.3,0
+STU0432,Aarav Jones,18,Female,Civil,2022,1.9,5
+STU0433,Vivaan Taylor,21,Female,Civil,2023,6.5,0
+STU0434,Liam Ahmed,16,Male,Mathematics,2023,6.9,6
+STU0435,Noah Brown,21,Male,Mathematics,2020,5.4,1
+STU0436,Aryan Miller,21,Male,Computer Science,2022,7.6,1
+STU0437,Vihaan Brown,16,Male,Civil,2022,5.0,3
+STU0438,Neha Moore,20,Female,Computer Science,2023,3.4,2
+STU0439,Emma Smith,16,Female,Mechanical,2020,8.5,0
+STU0440,Suresh Davis,16,Female,Electronics,2023,6.7,2
+STU0441,Riya Malik,20,Female,Computer Science,2023,9.1,3
+STU0442,Aditya Chaudhary,16,Male,Mathematics,2023,3.1,0
+STU0443,Sophia Davis,15,Male,Data Science,2022,2.8,0
+STU0444,Charlotte Ali,21,Female,Electronics,2023,9.0,1
+STU0445,Tanvi Williams,17,Female,Mechanical,2020,4.9,0
+STU0446,Hassan Miller,20,Male,Mathematics,2020,3.8,3
+STU0447,Aarav Sharma,18,Female,Electronics,2023,5.9,0
+STU0448,Pooja Chaudhary,20,Female,Mathematics,2022,5.8,1
+STU0449,Emma Chaudhary,19,Male,Computer Science,2022,3.5,0
+STU0450,Amara Ali,18,Female,Mathematics,2021,3.2,2
+STU0451,Vihaan Ahmed,19,Male,Mechanical,2022,5.3,0
+STU0452,Vihaan Verma,22,Female,Data Science,2020,4.5,0
+STU0453,Leila Miller,22,Female,Computer Science,2022,6.6,0
+STU0454,Krishna Williams,20,Non-binary,Computer Science,2023,6.2,6
+STU0455,Noah Sharma,19,Male,Mechanical,2022,6.3,0
+STU0456,Riya Kumar,18,Male,Mechanical,2024,5.7,3
+STU0457,Aarav Johnson,15,Male,Electronics,2022,5.8,0
+STU0458,Zara Patel,20,Male,Data Science,2022,4.4,0
+STU0459,Sneha Smith,20,Female,Mathematics,2023,2.7,2
+STU0460,Aryan Shah,16,Female,Electronics,2021,5.6,2
+STU0461,Olivia Jones,20,Male,Mathematics,2024,3.4,6
+STU0462,Krishna Chaudhary,21,Male,Mathematics,2023,3.7,6
+STU0463,Rohan Wilson,22,Male,Mathematics,2021,2.6,3
+STU0464,Divya Singh,21,Male,Electronics,2023,5.7,2
+STU0465,Vihaan Kumar,20,Male,Computer Science,2020,4.9,1
+STU0466,Fatima Wilson,22,Male,Mechanical,2024,4.2,1
+STU0467,Reyansh Davis,22,Female,Computer Science,2024,3.6,6
+STU0468,Priya Brown,15,Male,Data Science,2023,5.7,2
+STU0469,Fatima Rao,16,Female,Electronics,2021,6.8,2
+STU0470,Sophia Ahmed,17,Female,Data Science,2021,1.4,0
+STU0471,Hassan Rao,19,Male,Mechanical,2022,6.8,0
+STU0472,Mia Siddiqui,18,Female,Mechanical,2021,8.1,6
+STU0473,Nandini Ali,17,Female,Civil,2022,5.9,0
+STU0474,Kiran Shah,16,Female,Data Science,2024,3.8,1
+STU0475,Sophia Brown,21,Male,Computer Science,2022,4.6,0
+STU0476,Suresh Hassan,21,Male,Data Science,2023,3.5,4
+STU0477,Ananya Moore,21,Female,Electronics,2023,4.4,0
+STU0478,Rohan Khan,15,Female,Mechanical,2024,6.3,4
+STU0479,Sophia Malik,22,Male,Mechanical,2020,7.5,0
+STU0480,Lakshmi Ali,21,Male,Data Science,2022,6.4,5
+STU0481,Sneha Gupta,18,Male,Data Science,2023,3.2,3
+STU0482,Noor Ali,19,Male,Mathematics,2024,6.0,0
+STU0483,Neha Patel,20,Female,Data Science,2024,8.0,2
+STU0484,Isabella Williams,20,Male,Mathematics,2023,6.9,0
+STU0485,Tanvi Taylor,17,Male,Electronics,2021,7.2,0
+STU0486,Vihaan Taylor,19,Female,Electronics,2023,7.2,4
+STU0487,Suresh Ahmed,16,Male,Computer Science,2020,2.6,1
+STU0488,Zara Chaudhary,19,Female,Data Science,2023,8.0,1
+STU0489,Shreya Brown,15,Female,Computer Science,2023,4.9,0
+STU0490,Tariq Reddy,17,Male,Civil,2023,8.2,1
+STU0491,Aryan Ansari,17,Female,Electronics,2024,5.3,5
+STU0492,Olivia Jones,15,Female,Mechanical,2023,6.3,1
+STU0493,Kavya Brown,19,Male,Mathematics,2022,5.3,6
+STU0494,Aryan Verma,21,Male,Civil,2021,4.8,6
+STU0495,Divya Taylor,15,Female,Mechanical,2024,9.2,0
+STU0496,Sneha Malik,21,Female,Civil,2021,5.8,0
+STU0497,Arjun Kumar,18,Female,Computer Science,2021,8.1,5
+STU0498,Rahul Rao,15,Male,Computer Science,2021,4.5,1
+STU0499,Yusuf Rao,21,Female,Mathematics,2023,7.1,0
+STU0500,Leila Davis,19,Male,Electronics,2021,5.0,0

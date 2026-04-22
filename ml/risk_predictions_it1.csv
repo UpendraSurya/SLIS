@@ -1,0 +1,501 @@
+student_id,name,major,checkpoint,predicted_risk,true_risk,correct,prob_low,prob_medium,prob_high,confidence
+STU0001,Sneha Reddy,Electronics,After IT1,High,High,True,0.0,0.189,0.81,0.81
+STU0002,Neha Shah,Mathematics,After IT1,Medium,Medium,True,0.016,0.744,0.24,0.744
+STU0003,Sneha Verma,Mechanical,After IT1,Medium,Medium,True,0.055,0.759,0.186,0.759
+STU0004,Tariq Reddy,Data Science,After IT1,High,High,True,0.0,0.085,0.915,0.915
+STU0005,Suresh Davis,Mathematics,After IT1,Low,Low,True,0.985,0.015,0.0,0.985
+STU0006,Zara Ansari,Mechanical,After IT1,High,High,True,0.0,0.041,0.959,0.959
+STU0007,Vihaan Shah,Computer Science,After IT1,Medium,Medium,True,0.027,0.823,0.15,0.823
+STU0008,Fatima Johnson,Computer Science,After IT1,Medium,High,False,0.184,0.761,0.055,0.761
+STU0009,Aditya Shah,Data Science,After IT1,High,High,True,0.0,0.008,0.992,0.992
+STU0010,Olivia Shah,Mechanical,After IT1,Medium,Medium,True,0.086,0.87,0.044,0.87
+STU0011,Isabella Sharma,Computer Science,After IT1,Low,Low,True,0.638,0.361,0.001,0.638
+STU0012,Shreya Malik,Mathematics,After IT1,High,High,True,0.0,0.01,0.99,0.99
+STU0013,Aarav Smith,Civil,After IT1,Medium,Medium,True,0.058,0.875,0.066,0.875
+STU0014,Amir Davis,Mechanical,After IT1,Medium,Medium,True,0.007,0.583,0.41,0.583
+STU0015,Ayaan Ansari,Data Science,After IT1,High,High,True,0.0,0.069,0.931,0.931
+STU0016,Meera Joshi,Mechanical,After IT1,Medium,Medium,True,0.034,0.892,0.074,0.892
+STU0017,Ishaan Rao,Electronics,After IT1,High,Medium,False,0.0,0.167,0.833,0.833
+STU0018,Sophia Davis,Electronics,After IT1,High,High,True,0.0,0.048,0.952,0.952
+STU0019,Vijay Ali,Computer Science,After IT1,Medium,Medium,True,0.04,0.877,0.083,0.877
+STU0020,Riya Chaudhary,Electronics,After IT1,Medium,Medium,True,0.003,0.665,0.332,0.665
+STU0021,Shreya Hassan,Data Science,After IT1,Medium,Medium,True,0.043,0.737,0.22,0.737
+STU0022,Olivia Moore,Computer Science,After IT1,Medium,Medium,True,0.002,0.619,0.379,0.619
+STU0023,Ananya Mirza,Data Science,After IT1,High,High,True,0.0,0.183,0.817,0.817
+STU0024,Lakshmi Ali,Mathematics,After IT1,High,High,True,0.0,0.029,0.971,0.971
+STU0025,Vivaan Patel,Data Science,After IT1,High,High,True,0.0,0.09,0.91,0.91
+STU0026,Kavya Rao,Electronics,After IT1,Low,Low,True,0.59,0.409,0.002,0.59
+STU0027,Lakshmi Johnson,Mathematics,After IT1,High,High,True,0.0,0.143,0.857,0.857
+STU0028,Nandini Davis,Electronics,After IT1,Medium,Medium,True,0.001,0.519,0.479,0.519
+STU0029,Aarav Brown,Data Science,After IT1,Medium,Medium,True,0.02,0.875,0.105,0.875
+STU0030,Ava Jones,Electronics,After IT1,High,Medium,False,0.002,0.401,0.596,0.596
+STU0031,Ava Taylor,Electronics,After IT1,High,High,True,0.0,0.326,0.674,0.674
+STU0032,Omar Patel,Electronics,After IT1,Medium,Medium,True,0.23,0.757,0.013,0.757
+STU0033,Nandini Smith,Mechanical,After IT1,High,High,True,0.001,0.224,0.775,0.775
+STU0034,Ananya Rao,Mathematics,After IT1,High,High,True,0.0,0.278,0.722,0.722
+STU0035,Omar Ahmed,Mathematics,After IT1,Medium,High,False,0.003,0.594,0.403,0.594
+STU0036,Kiran Williams,Mathematics,After IT1,High,High,True,0.0,0.035,0.965,0.965
+STU0037,Neha Shah,Data Science,After IT1,High,Medium,False,0.003,0.377,0.62,0.62
+STU0038,Rahul Singh,Civil,After IT1,Low,Low,True,0.855,0.144,0.0,0.855
+STU0039,Neha Mirza,Data Science,After IT1,Medium,Medium,True,0.051,0.874,0.076,0.874
+STU0040,Yusuf Reddy,Mathematics,After IT1,High,High,True,0.0,0.008,0.992,0.992
+STU0041,Mia Brown,Computer Science,After IT1,High,High,True,0.0,0.002,0.998,0.998
+STU0042,Ayaan Ansari,Electronics,After IT1,High,High,True,0.0,0.026,0.974,0.974
+STU0043,Amara Joshi,Electronics,After IT1,Low,Low,True,0.689,0.308,0.002,0.689
+STU0044,Sneha Kumar,Civil,After IT1,High,High,True,0.0,0.017,0.983,0.983
+STU0045,Pooja Gupta,Computer Science,After IT1,Medium,Medium,True,0.009,0.768,0.223,0.768
+STU0046,Arjun Verma,Mechanical,After IT1,Medium,Medium,True,0.011,0.776,0.213,0.776
+STU0047,Krishna Verma,Data Science,After IT1,Medium,Medium,True,0.004,0.549,0.447,0.549
+STU0048,Amara Mirza,Mechanical,After IT1,Medium,Medium,True,0.265,0.729,0.006,0.729
+STU0049,Ishaan Taylor,Computer Science,After IT1,Medium,Medium,True,0.196,0.784,0.02,0.784
+STU0050,Rahul Kumar,Civil,After IT1,High,High,True,0.0,0.001,0.999,0.999
+STU0051,Isabella Brown,Computer Science,After IT1,Medium,High,False,0.004,0.704,0.292,0.704
+STU0052,Shreya Nair,Civil,After IT1,High,High,True,0.009,0.454,0.537,0.537
+STU0053,Aarav Chaudhary,Mechanical,After IT1,High,High,True,0.0,0.088,0.912,0.912
+STU0054,Yusuf Brown,Mechanical,After IT1,Medium,Medium,True,0.006,0.713,0.281,0.713
+STU0055,Sneha Verma,Computer Science,After IT1,Medium,Medium,True,0.021,0.736,0.243,0.736
+STU0056,Krishna Khan,Computer Science,After IT1,High,High,True,0.0,0.132,0.868,0.868
+STU0057,Olivia Davis,Electronics,After IT1,Medium,Medium,True,0.001,0.5,0.498,0.5
+STU0058,Ananya Smith,Civil,After IT1,Medium,Medium,True,0.009,0.7,0.291,0.7
+STU0059,Aditya Shah,Electronics,After IT1,High,High,True,0.003,0.414,0.583,0.583
+STU0060,Rohan Rao,Data Science,After IT1,Medium,Medium,True,0.17,0.797,0.033,0.797
+STU0061,Noah Hassan,Data Science,After IT1,High,Medium,False,0.0,0.229,0.771,0.771
+STU0062,Sai Patel,Computer Science,After IT1,Low,Low,True,0.829,0.171,0.001,0.829
+STU0063,Anjali Williams,Mechanical,After IT1,Medium,High,False,0.01,0.744,0.245,0.744
+STU0064,Charlotte Sharma,Data Science,After IT1,High,High,True,0.001,0.463,0.536,0.536
+STU0065,Vihaan Miller,Data Science,After IT1,High,High,True,0.001,0.469,0.53,0.53
+STU0066,Vihaan Moore,Electronics,After IT1,Low,Low,True,0.848,0.152,0.0,0.848
+STU0067,Sophia Taylor,Electronics,After IT1,High,High,True,0.0,0.072,0.928,0.928
+STU0068,Riya Nair,Data Science,After IT1,High,High,True,0.0,0.05,0.95,0.95
+STU0069,Neha Ahmed,Computer Science,After IT1,Low,Low,True,0.985,0.015,0.0,0.985
+STU0070,Lakshmi Chaudhary,Electronics,After IT1,Medium,Medium,True,0.077,0.905,0.017,0.905
+STU0071,Tanvi Sharma,Data Science,After IT1,High,High,True,0.0,0.124,0.876,0.876
+STU0072,Pooja Patel,Mechanical,After IT1,High,High,True,0.0,0.081,0.919,0.919
+STU0073,Noor Mirza,Electronics,After IT1,Medium,Medium,True,0.004,0.509,0.487,0.509
+STU0074,Sophia Miller,Data Science,After IT1,Medium,Medium,True,0.012,0.941,0.047,0.941
+STU0075,Kiran Siddiqui,Civil,After IT1,High,Medium,False,0.0,0.033,0.967,0.967
+STU0076,Arjun Patel,Electronics,After IT1,Medium,High,False,0.028,0.826,0.146,0.826
+STU0077,Mia Singh,Civil,After IT1,Medium,Medium,True,0.019,0.932,0.049,0.932
+STU0078,Kavya Taylor,Electronics,After IT1,High,Medium,False,0.0,0.455,0.545,0.545
+STU0079,Aryan Brown,Electronics,After IT1,High,High,True,0.0,0.002,0.998,0.998
+STU0080,Aditya Ahmed,Mathematics,After IT1,High,High,True,0.0,0.003,0.997,0.997
+STU0081,Reyansh Jones,Mathematics,After IT1,High,High,True,0.0,0.196,0.804,0.804
+STU0082,Aditya Shah,Civil,After IT1,Medium,Medium,True,0.165,0.802,0.033,0.802
+STU0083,Anjali Ansari,Computer Science,After IT1,High,High,True,0.0,0.149,0.851,0.851
+STU0084,Anjali Rao,Data Science,After IT1,High,High,True,0.0,0.005,0.995,0.995
+STU0085,Liam Williams,Computer Science,After IT1,Medium,Medium,True,0.045,0.908,0.047,0.908
+STU0086,Mia Nair,Computer Science,After IT1,Medium,Medium,True,0.033,0.779,0.188,0.779
+STU0087,Sophia Mirza,Mathematics,After IT1,Medium,High,False,0.003,0.679,0.318,0.679
+STU0088,Charlotte Hassan,Data Science,After IT1,Medium,Medium,True,0.372,0.62,0.008,0.62
+STU0089,Vihaan Mirza,Mathematics,After IT1,High,High,True,0.0,0.099,0.901,0.901
+STU0090,Vijay Hassan,Mathematics,After IT1,Medium,Medium,True,0.006,0.583,0.411,0.583
+STU0091,Hassan Patel,Mathematics,After IT1,Medium,Medium,True,0.006,0.625,0.369,0.625
+STU0092,Divya Sharma,Mechanical,After IT1,High,High,True,0.0,0.075,0.925,0.925
+STU0093,Mia Wilson,Computer Science,After IT1,High,High,True,0.0,0.049,0.951,0.951
+STU0094,Tanvi Nair,Computer Science,After IT1,Medium,Medium,True,0.399,0.597,0.005,0.597
+STU0095,Vijay Davis,Computer Science,After IT1,Medium,Medium,True,0.003,0.711,0.286,0.711
+STU0096,Omar Chaudhary,Mechanical,After IT1,Medium,Medium,True,0.127,0.845,0.029,0.845
+STU0097,Neha Ahmed,Electronics,After IT1,High,High,True,0.0,0.026,0.974,0.974
+STU0098,Ishaan Malik,Civil,After IT1,High,High,True,0.001,0.457,0.542,0.542
+STU0099,Sai Malik,Civil,After IT1,High,High,True,0.0,0.125,0.875,0.875
+STU0100,Priya Davis,Mechanical,After IT1,High,Medium,False,0.0,0.262,0.737,0.737
+STU0101,Aditya Wilson,Computer Science,After IT1,Low,Low,True,0.821,0.179,0.0,0.821
+STU0102,Amara Shah,Civil,After IT1,High,Medium,False,0.001,0.455,0.545,0.545
+STU0103,Divya Rao,Mechanical,After IT1,Medium,Medium,True,0.013,0.842,0.145,0.842
+STU0104,Yusuf Chaudhary,Mathematics,After IT1,High,Medium,False,0.002,0.491,0.507,0.507
+STU0105,Reyansh Wilson,Data Science,After IT1,High,Medium,False,0.002,0.274,0.725,0.725
+STU0106,Isabella Ahmed,Civil,After IT1,Medium,Medium,True,0.035,0.843,0.122,0.843
+STU0107,Kavya Shah,Data Science,After IT1,Medium,Medium,True,0.01,0.833,0.157,0.833
+STU0108,Ava Wilson,Computer Science,After IT1,Medium,Medium,True,0.288,0.706,0.007,0.706
+STU0109,Pooja Hassan,Civil,After IT1,Medium,Medium,True,0.023,0.874,0.103,0.874
+STU0110,Priya Brown,Mechanical,After IT1,High,High,True,0.0,0.004,0.996,0.996
+STU0111,Omar Kumar,Electronics,After IT1,High,Medium,False,0.004,0.424,0.572,0.572
+STU0112,Olivia Patel,Civil,After IT1,Medium,Medium,True,0.001,0.765,0.234,0.765
+STU0113,Sneha Rao,Civil,After IT1,Medium,Medium,True,0.191,0.784,0.025,0.784
+STU0114,Suresh Ahmed,Civil,After IT1,Low,Low,True,0.58,0.417,0.003,0.58
+STU0115,Riya Moore,Civil,After IT1,Low,Low,True,0.658,0.341,0.0,0.658
+STU0116,Anjali Williams,Mechanical,After IT1,High,High,True,0.0,0.044,0.956,0.956
+STU0117,Yasmin Smith,Mechanical,After IT1,High,High,True,0.0,0.036,0.964,0.964
+STU0118,Noor Khan,Electronics,After IT1,Medium,Medium,True,0.21,0.774,0.016,0.774
+STU0119,Ishaan Nair,Mechanical,After IT1,Medium,Medium,True,0.207,0.766,0.027,0.766
+STU0120,Ananya Taylor,Mechanical,After IT1,Medium,Medium,True,0.043,0.766,0.191,0.766
+STU0121,Noah Ansari,Computer Science,After IT1,High,High,True,0.0,0.003,0.997,0.997
+STU0122,Shreya Johnson,Computer Science,After IT1,Medium,Medium,True,0.009,0.661,0.33,0.661
+STU0123,Rohan Sharma,Data Science,After IT1,High,High,True,0.0,0.032,0.968,0.968
+STU0124,Amir Khan,Electronics,After IT1,High,High,True,0.0,0.018,0.982,0.982
+STU0125,Pooja Kumar,Computer Science,After IT1,Medium,High,False,0.02,0.511,0.469,0.511
+STU0126,Tariq Johnson,Electronics,After IT1,Medium,Medium,True,0.104,0.847,0.049,0.847
+STU0127,Kiran Davis,Electronics,After IT1,Medium,Medium,True,0.127,0.846,0.026,0.846
+STU0128,Leila Johnson,Civil,After IT1,High,High,True,0.0,0.002,0.998,0.998
+STU0129,Noah Davis,Mathematics,After IT1,Medium,Medium,True,0.007,0.632,0.362,0.632
+STU0130,Amara Miller,Mathematics,After IT1,Medium,High,False,0.001,0.586,0.414,0.586
+STU0131,Mia Williams,Mathematics,After IT1,High,High,True,0.0,0.243,0.757,0.757
+STU0132,Fatima Williams,Electronics,After IT1,Medium,Medium,True,0.037,0.823,0.141,0.823
+STU0133,Vivaan Patel,Civil,After IT1,Medium,Medium,True,0.05,0.891,0.059,0.891
+STU0134,Isabella Williams,Data Science,After IT1,Low,Low,True,0.874,0.126,0.0,0.874
+STU0135,Anjali Mirza,Data Science,After IT1,High,High,True,0.0,0.094,0.906,0.906
+STU0136,Leila Wilson,Mathematics,After IT1,Medium,Medium,True,0.014,0.948,0.038,0.948
+STU0137,Aditya Verma,Data Science,After IT1,High,High,True,0.001,0.294,0.705,0.705
+STU0138,Reyansh Kumar,Civil,After IT1,High,High,True,0.0,0.002,0.998,0.998
+STU0139,Anjali Williams,Mathematics,After IT1,Medium,High,False,0.002,0.52,0.478,0.52
+STU0140,Sophia Chaudhary,Civil,After IT1,Medium,Medium,True,0.081,0.891,0.029,0.891
+STU0141,Ava Williams,Data Science,After IT1,Medium,Medium,True,0.037,0.898,0.065,0.898
+STU0142,Yusuf Malik,Mathematics,After IT1,Medium,Medium,True,0.009,0.801,0.19,0.801
+STU0143,Noor Patel,Civil,After IT1,High,Medium,False,0.0,0.244,0.756,0.756
+STU0144,Yasmin Sharma,Mechanical,After IT1,Medium,Medium,True,0.014,0.941,0.045,0.941
+STU0145,Lakshmi Davis,Mechanical,After IT1,High,High,True,0.002,0.45,0.548,0.548
+STU0146,Charlotte Khan,Civil,After IT1,Medium,High,False,0.002,0.505,0.493,0.505
+STU0147,Pooja Malik,Civil,After IT1,Medium,High,False,0.021,0.667,0.312,0.667
+STU0148,Amir Chaudhary,Computer Science,After IT1,High,High,True,0.0,0.328,0.672,0.672
+STU0149,Hassan Rao,Computer Science,After IT1,High,High,True,0.0,0.024,0.976,0.976
+STU0150,Riya Joshi,Electronics,After IT1,Medium,Medium,True,0.029,0.835,0.135,0.835
+STU0151,Ayaan Ahmed,Mathematics,After IT1,Medium,Medium,True,0.016,0.789,0.195,0.789
+STU0152,Emma Moore,Electronics,After IT1,Medium,Medium,True,0.024,0.771,0.205,0.771
+STU0153,Liam Siddiqui,Electronics,After IT1,Low,Medium,False,0.9,0.1,0.0,0.9
+STU0154,Zara Kumar,Data Science,After IT1,Medium,Medium,True,0.007,0.713,0.28,0.713
+STU0155,Hassan Ansari,Mechanical,After IT1,Medium,Medium,True,0.0,0.769,0.231,0.769
+STU0156,Mia Mirza,Data Science,After IT1,High,High,True,0.0,0.001,0.999,0.999
+STU0157,Aryan Brown,Mathematics,After IT1,High,High,True,0.0,0.112,0.888,0.888
+STU0158,Rahul Jones,Civil,After IT1,Medium,Medium,True,0.02,0.857,0.122,0.857
+STU0159,Ava Verma,Computer Science,After IT1,High,High,True,0.001,0.386,0.614,0.614
+STU0160,Ishaan Davis,Mathematics,After IT1,Medium,Medium,True,0.055,0.856,0.089,0.856
+STU0161,Tariq Ali,Civil,After IT1,High,High,True,0.0,0.236,0.764,0.764
+STU0162,Aarav Mirza,Mathematics,After IT1,High,High,True,0.0,0.097,0.903,0.903
+STU0163,Yasmin Jones,Civil,After IT1,High,High,True,0.0,0.256,0.744,0.744
+STU0164,Meera Gupta,Computer Science,After IT1,Low,Low,True,0.867,0.133,0.0,0.867
+STU0165,Nandini Kumar,Civil,After IT1,High,High,True,0.0,0.063,0.937,0.937
+STU0166,Sai Davis,Electronics,After IT1,Medium,Low,False,0.15,0.8,0.05,0.8
+STU0167,Amir Verma,Mathematics,After IT1,Medium,High,False,0.153,0.751,0.096,0.751
+STU0168,Mia Nair,Computer Science,After IT1,High,High,True,0.0,0.05,0.95,0.95
+STU0169,Yusuf Mirza,Civil,After IT1,Medium,Medium,True,0.148,0.823,0.029,0.823
+STU0170,Shreya Malik,Electronics,After IT1,Medium,Medium,True,0.001,0.71,0.289,0.71
+STU0171,Krishna Shah,Electronics,After IT1,High,High,True,0.0,0.04,0.96,0.96
+STU0172,Sophia Ansari,Mechanical,After IT1,Medium,Medium,True,0.048,0.888,0.064,0.888
+STU0173,Riya Reddy,Electronics,After IT1,High,High,True,0.001,0.342,0.658,0.658
+STU0174,Liam Shah,Data Science,After IT1,High,High,True,0.0,0.014,0.986,0.986
+STU0175,Rohan Jones,Computer Science,After IT1,Medium,Medium,True,0.119,0.766,0.115,0.766
+STU0176,Amara Siddiqui,Computer Science,After IT1,Medium,Medium,True,0.014,0.801,0.185,0.801
+STU0177,Anjali Davis,Computer Science,After IT1,High,High,True,0.0,0.11,0.89,0.89
+STU0178,Omar Johnson,Civil,After IT1,Medium,Medium,True,0.319,0.667,0.014,0.667
+STU0179,Sai Kumar,Mathematics,After IT1,High,High,True,0.0,0.21,0.789,0.789
+STU0180,Fatima Moore,Civil,After IT1,Low,Low,True,0.579,0.416,0.005,0.579
+STU0181,Zara Singh,Data Science,After IT1,High,High,True,0.002,0.42,0.578,0.578
+STU0182,Aarav Ali,Mathematics,After IT1,Medium,Medium,True,0.011,0.862,0.127,0.862
+STU0183,Pooja Shah,Electronics,After IT1,Medium,Medium,True,0.313,0.647,0.04,0.647
+STU0184,Rohan Hassan,Civil,After IT1,Medium,High,False,0.003,0.68,0.317,0.68
+STU0185,Omar Verma,Mathematics,After IT1,High,High,True,0.0,0.132,0.867,0.867
+STU0186,Kavya Brown,Electronics,After IT1,High,High,True,0.0,0.006,0.994,0.994
+STU0187,Nandini Verma,Mathematics,After IT1,High,High,True,0.0,0.364,0.636,0.636
+STU0188,Aditya Taylor,Electronics,After IT1,High,High,True,0.0,0.092,0.908,0.908
+STU0189,Olivia Davis,Mathematics,After IT1,High,High,True,0.0,0.19,0.81,0.81
+STU0190,Anjali Ansari,Civil,After IT1,Medium,Medium,True,0.001,0.711,0.288,0.711
+STU0191,Shreya Singh,Civil,After IT1,High,High,True,0.0,0.11,0.89,0.89
+STU0192,Vijay Davis,Data Science,After IT1,Medium,Medium,True,0.062,0.822,0.115,0.822
+STU0193,Suresh Davis,Mechanical,After IT1,High,High,True,0.0,0.008,0.992,0.992
+STU0194,Reyansh Verma,Computer Science,After IT1,Medium,Medium,True,0.002,0.822,0.176,0.822
+STU0195,Omar Gupta,Civil,After IT1,High,Medium,False,0.0,0.219,0.781,0.781
+STU0196,Olivia Ansari,Civil,After IT1,High,High,True,0.0,0.057,0.943,0.943
+STU0197,Tariq Mirza,Electronics,After IT1,Medium,Low,False,0.3,0.68,0.02,0.68
+STU0198,Shreya Moore,Mechanical,After IT1,Medium,Medium,True,0.129,0.815,0.055,0.815
+STU0199,Ava Miller,Civil,After IT1,High,High,True,0.001,0.347,0.652,0.652
+STU0200,Aryan Reddy,Mathematics,After IT1,High,High,True,0.0,0.115,0.885,0.885
+STU0201,Anjali Smith,Mechanical,After IT1,High,High,True,0.001,0.42,0.579,0.579
+STU0202,Yusuf Johnson,Computer Science,After IT1,Low,Medium,False,0.942,0.058,0.0,0.942
+STU0203,Ayaan Shah,Mathematics,After IT1,Medium,Low,False,0.35,0.635,0.015,0.635
+STU0204,Amir Gupta,Electronics,After IT1,Medium,Medium,True,0.426,0.566,0.008,0.566
+STU0205,Vihaan Khan,Data Science,After IT1,High,Medium,False,0.0,0.399,0.6,0.6
+STU0206,Lakshmi Rao,Mathematics,After IT1,Medium,Medium,True,0.022,0.885,0.093,0.885
+STU0207,Amir Taylor,Computer Science,After IT1,High,High,True,0.0,0.003,0.997,0.997
+STU0208,Pooja Joshi,Mathematics,After IT1,Medium,High,False,0.009,0.53,0.461,0.53
+STU0209,Meera Shah,Mechanical,After IT1,High,High,True,0.0,0.14,0.86,0.86
+STU0210,Charlotte Nair,Mechanical,After IT1,High,High,True,0.0,0.005,0.995,0.995
+STU0211,Fatima Miller,Computer Science,After IT1,Medium,Medium,True,0.0,0.602,0.398,0.602
+STU0212,Emma Miller,Mechanical,After IT1,Medium,Low,False,0.395,0.592,0.013,0.592
+STU0213,Divya Kumar,Mathematics,After IT1,High,High,True,0.0,0.055,0.945,0.945
+STU0214,Sneha Nair,Data Science,After IT1,Low,Medium,False,0.527,0.468,0.005,0.527
+STU0215,Arjun Siddiqui,Mathematics,After IT1,High,High,True,0.0,0.034,0.966,0.966
+STU0216,Kiran Singh,Data Science,After IT1,Medium,High,False,0.007,0.619,0.373,0.619
+STU0217,Suresh Smith,Mechanical,After IT1,Medium,Medium,True,0.241,0.754,0.006,0.754
+STU0218,Olivia Joshi,Mathematics,After IT1,High,Medium,False,0.001,0.496,0.504,0.504
+STU0219,Vijay Rao,Mechanical,After IT1,Medium,Medium,True,0.002,0.551,0.448,0.551
+STU0220,Sophia Taylor,Data Science,After IT1,Low,Low,True,0.936,0.064,0.0,0.936
+STU0221,Tanvi Singh,Mechanical,After IT1,High,High,True,0.0,0.012,0.988,0.988
+STU0222,Kiran Brown,Civil,After IT1,High,High,True,0.0,0.072,0.928,0.928
+STU0223,Mia Johnson,Electronics,After IT1,Medium,Medium,True,0.035,0.91,0.055,0.91
+STU0224,Suresh Ansari,Mathematics,After IT1,Medium,Medium,True,0.01,0.836,0.154,0.836
+STU0225,Liam Williams,Civil,After IT1,Medium,Medium,True,0.018,0.853,0.13,0.853
+STU0226,Charlotte Sharma,Mechanical,After IT1,Medium,Medium,True,0.09,0.868,0.041,0.868
+STU0227,Tanvi Kumar,Mechanical,After IT1,Medium,Medium,True,0.012,0.842,0.145,0.842
+STU0228,Aryan Davis,Electronics,After IT1,Medium,High,False,0.017,0.77,0.213,0.77
+STU0229,Mia Hassan,Mechanical,After IT1,Medium,Medium,True,0.142,0.825,0.033,0.825
+STU0230,Divya Rao,Electronics,After IT1,High,High,True,0.0,0.078,0.922,0.922
+STU0231,Neha Ansari,Mathematics,After IT1,High,High,True,0.0,0.089,0.911,0.911
+STU0232,Liam Sharma,Data Science,After IT1,High,High,True,0.0,0.053,0.947,0.947
+STU0233,Ava Wilson,Electronics,After IT1,Medium,Low,False,0.105,0.849,0.046,0.849
+STU0234,Meera Malik,Electronics,After IT1,Medium,Medium,True,0.148,0.843,0.009,0.843
+STU0235,Lakshmi Reddy,Civil,After IT1,Medium,Medium,True,0.493,0.505,0.001,0.505
+STU0236,Zara Malik,Mechanical,After IT1,Medium,Low,False,0.096,0.763,0.141,0.763
+STU0237,Priya Joshi,Mathematics,After IT1,Medium,Medium,True,0.01,0.645,0.345,0.645
+STU0238,Aarav Taylor,Data Science,After IT1,Medium,High,False,0.035,0.722,0.243,0.722
+STU0239,Ananya Jones,Computer Science,After IT1,Medium,Medium,True,0.002,0.643,0.355,0.643
+STU0240,Isabella Wilson,Electronics,After IT1,High,High,True,0.0,0.403,0.596,0.596
+STU0241,Yusuf Davis,Computer Science,After IT1,High,High,True,0.0,0.076,0.924,0.924
+STU0242,Kavya Sharma,Mechanical,After IT1,Medium,Medium,True,0.461,0.533,0.005,0.533
+STU0243,Liam Reddy,Electronics,After IT1,High,High,True,0.0,0.315,0.685,0.685
+STU0244,Charlotte Brown,Computer Science,After IT1,Medium,Medium,True,0.089,0.8,0.112,0.8
+STU0245,Fatima Hassan,Civil,After IT1,High,High,True,0.0,0.068,0.932,0.932
+STU0246,Aryan Rao,Computer Science,After IT1,High,High,True,0.0,0.042,0.958,0.958
+STU0247,Tariq Verma,Civil,After IT1,Medium,Medium,True,0.13,0.831,0.039,0.831
+STU0248,Mia Rao,Data Science,After IT1,Medium,Medium,True,0.032,0.874,0.094,0.874
+STU0249,Ava Jones,Mechanical,After IT1,Medium,Medium,True,0.024,0.942,0.034,0.942
+STU0250,Yasmin Miller,Mathematics,After IT1,High,High,True,0.0,0.049,0.951,0.951
+STU0251,Ishaan Siddiqui,Computer Science,After IT1,High,High,True,0.0,0.016,0.984,0.984
+STU0252,Leila Ahmed,Electronics,After IT1,Low,Low,True,0.863,0.137,0.001,0.863
+STU0253,Pooja Malik,Mechanical,After IT1,High,Medium,False,0.001,0.385,0.614,0.614
+STU0254,Vivaan Moore,Computer Science,After IT1,High,High,True,0.0,0.304,0.696,0.696
+STU0255,Vihaan Smith,Electronics,After IT1,High,High,True,0.0,0.012,0.988,0.988
+STU0256,Yasmin Moore,Electronics,After IT1,Medium,Medium,True,0.021,0.881,0.098,0.881
+STU0257,Omar Chaudhary,Mathematics,After IT1,High,High,True,0.0,0.035,0.965,0.965
+STU0258,Ishaan Miller,Mathematics,After IT1,Medium,Medium,True,0.134,0.791,0.075,0.791
+STU0259,Amara Shah,Electronics,After IT1,High,High,True,0.0,0.198,0.802,0.802
+STU0260,Hassan Smith,Mathematics,After IT1,High,High,True,0.0,0.251,0.748,0.748
+STU0261,Amara Hassan,Electronics,After IT1,High,High,True,0.0,0.008,0.992,0.992
+STU0262,Yusuf Wilson,Computer Science,After IT1,Medium,Medium,True,0.003,0.675,0.322,0.675
+STU0263,Rahul Joshi,Data Science,After IT1,High,High,True,0.0,0.076,0.924,0.924
+STU0264,Ava Mirza,Mathematics,After IT1,Medium,Medium,True,0.016,0.916,0.068,0.916
+STU0265,Kavya Siddiqui,Civil,After IT1,Medium,Medium,True,0.108,0.865,0.028,0.865
+STU0266,Aditya Moore,Civil,After IT1,High,High,True,0.003,0.33,0.666,0.666
+STU0267,Shreya Chaudhary,Civil,After IT1,High,Medium,False,0.001,0.36,0.639,0.639
+STU0268,Divya Nair,Data Science,After IT1,High,Medium,False,0.007,0.394,0.598,0.598
+STU0269,Sneha Sharma,Electronics,After IT1,High,High,True,0.001,0.41,0.589,0.589
+STU0270,Kavya Malik,Electronics,After IT1,High,High,True,0.003,0.383,0.614,0.614
+STU0271,Yasmin Patel,Mechanical,After IT1,Medium,Medium,True,0.012,0.856,0.132,0.856
+STU0272,Shreya Johnson,Civil,After IT1,High,High,True,0.0,0.046,0.954,0.954
+STU0273,Kavya Singh,Civil,After IT1,High,High,True,0.0,0.12,0.88,0.88
+STU0274,Emma Reddy,Electronics,After IT1,High,High,True,0.0,0.036,0.964,0.964
+STU0275,Tanvi Moore,Civil,After IT1,High,High,True,0.0,0.109,0.891,0.891
+STU0276,Vivaan Patel,Electronics,After IT1,High,High,True,0.0,0.008,0.992,0.992
+STU0277,Rahul Nair,Electronics,After IT1,Medium,Medium,True,0.028,0.93,0.043,0.93
+STU0278,Suresh Mirza,Mathematics,After IT1,Medium,Medium,True,0.091,0.782,0.127,0.782
+STU0279,Rohan Moore,Electronics,After IT1,Medium,Low,False,0.394,0.601,0.005,0.601
+STU0280,Tanvi Joshi,Computer Science,After IT1,High,High,True,0.0,0.068,0.932,0.932
+STU0281,Hassan Jones,Computer Science,After IT1,High,High,True,0.0,0.045,0.955,0.955
+STU0282,Krishna Verma,Computer Science,After IT1,Medium,Medium,True,0.142,0.821,0.037,0.821
+STU0283,Hassan Davis,Computer Science,After IT1,High,High,True,0.0,0.173,0.827,0.827
+STU0284,Sophia Malik,Data Science,After IT1,Medium,High,False,0.006,0.709,0.284,0.709
+STU0285,Sophia Ali,Mechanical,After IT1,Medium,Medium,True,0.001,0.592,0.407,0.592
+STU0286,Aryan Davis,Mechanical,After IT1,High,High,True,0.0,0.075,0.925,0.925
+STU0287,Riya Nair,Electronics,After IT1,Low,Medium,False,0.575,0.416,0.009,0.575
+STU0288,Neha Verma,Civil,After IT1,Medium,High,False,0.015,0.742,0.243,0.742
+STU0289,Anjali Siddiqui,Computer Science,After IT1,Medium,High,False,0.069,0.772,0.159,0.772
+STU0290,Riya Williams,Mechanical,After IT1,Medium,Medium,True,0.02,0.803,0.177,0.803
+STU0291,Fatima Miller,Mechanical,After IT1,High,High,True,0.002,0.419,0.579,0.579
+STU0292,Suresh Smith,Computer Science,After IT1,High,Medium,False,0.003,0.419,0.579,0.579
+STU0293,Hassan Singh,Data Science,After IT1,Medium,Medium,True,0.197,0.746,0.057,0.746
+STU0294,Amir Verma,Data Science,After IT1,Medium,Medium,True,0.156,0.827,0.016,0.827
+STU0295,Kiran Rao,Mechanical,After IT1,High,High,True,0.0,0.045,0.955,0.955
+STU0296,Neha Shah,Data Science,After IT1,Medium,Medium,True,0.009,0.833,0.158,0.833
+STU0297,Suresh Patel,Mathematics,After IT1,High,High,True,0.0,0.004,0.996,0.996
+STU0298,Divya Wilson,Computer Science,After IT1,Medium,High,False,0.012,0.82,0.168,0.82
+STU0299,Vihaan Ansari,Mechanical,After IT1,Medium,High,False,0.014,0.706,0.28,0.706
+STU0300,Neha Sharma,Computer Science,After IT1,Medium,Low,False,0.351,0.627,0.022,0.627
+STU0301,Emma Patel,Data Science,After IT1,High,Medium,False,0.002,0.475,0.524,0.524
+STU0302,Ava Singh,Computer Science,After IT1,Medium,Medium,True,0.016,0.921,0.063,0.921
+STU0303,Kavya Wilson,Data Science,After IT1,High,High,True,0.001,0.474,0.525,0.525
+STU0304,Shreya Patel,Data Science,After IT1,Low,Medium,False,0.705,0.294,0.001,0.705
+STU0305,Noor Khan,Computer Science,After IT1,Medium,Medium,True,0.079,0.85,0.071,0.85
+STU0306,Divya Sharma,Data Science,After IT1,Medium,Medium,True,0.094,0.803,0.102,0.803
+STU0307,Vivaan Patel,Mathematics,After IT1,Medium,Medium,True,0.013,0.746,0.242,0.746
+STU0308,Anjali Gupta,Electronics,After IT1,Low,Low,True,0.568,0.431,0.002,0.568
+STU0309,Vihaan Ali,Computer Science,After IT1,Medium,Medium,True,0.012,0.696,0.292,0.696
+STU0310,Rahul Davis,Electronics,After IT1,High,High,True,0.0,0.147,0.853,0.853
+STU0311,Vijay Singh,Computer Science,After IT1,Medium,Medium,True,0.033,0.827,0.141,0.827
+STU0312,Riya Rao,Data Science,After IT1,High,High,True,0.0,0.428,0.571,0.571
+STU0313,Lakshmi Smith,Data Science,After IT1,High,High,True,0.0,0.075,0.925,0.925
+STU0314,Sneha Miller,Mechanical,After IT1,Medium,Medium,True,0.002,0.689,0.309,0.689
+STU0315,Zara Sharma,Mathematics,After IT1,High,High,True,0.0,0.073,0.927,0.927
+STU0316,Sai Khan,Mechanical,After IT1,High,High,True,0.0,0.057,0.943,0.943
+STU0317,Emma Verma,Electronics,After IT1,High,Medium,False,0.001,0.448,0.551,0.551
+STU0318,Riya Smith,Data Science,After IT1,Medium,Low,False,0.28,0.713,0.007,0.713
+STU0319,Rohan Smith,Mechanical,After IT1,High,High,True,0.0,0.167,0.832,0.832
+STU0320,Lakshmi Smith,Data Science,After IT1,Medium,High,False,0.042,0.81,0.148,0.81
+STU0321,Nandini Kumar,Computer Science,After IT1,Medium,Medium,True,0.027,0.849,0.124,0.849
+STU0322,Divya Ansari,Mechanical,After IT1,Medium,High,False,0.026,0.656,0.318,0.656
+STU0323,Anjali Jones,Electronics,After IT1,Low,Low,True,0.565,0.429,0.006,0.565
+STU0324,Divya Taylor,Mechanical,After IT1,Low,Low,True,0.845,0.155,0.0,0.845
+STU0325,Sneha Wilson,Data Science,After IT1,High,High,True,0.0,0.125,0.875,0.875
+STU0326,Nandini Chaudhary,Civil,After IT1,Medium,Low,False,0.495,0.503,0.002,0.503
+STU0327,Aarav Joshi,Civil,After IT1,Medium,Medium,True,0.042,0.879,0.079,0.879
+STU0328,Nandini Mirza,Mathematics,After IT1,Medium,Low,False,0.319,0.667,0.014,0.667
+STU0329,Aarav Reddy,Data Science,After IT1,Medium,Medium,True,0.001,0.56,0.439,0.56
+STU0330,Kavya Smith,Computer Science,After IT1,High,High,True,0.0,0.008,0.992,0.992
+STU0331,Kiran Shah,Mechanical,After IT1,Low,Low,True,0.832,0.168,0.0,0.832
+STU0332,Yasmin Verma,Civil,After IT1,High,Medium,False,0.002,0.26,0.738,0.738
+STU0333,Noor Verma,Computer Science,After IT1,High,High,True,0.0,0.169,0.83,0.83
+STU0334,Liam Chaudhary,Data Science,After IT1,Medium,Medium,True,0.026,0.798,0.176,0.798
+STU0335,Vihaan Ali,Computer Science,After IT1,High,High,True,0.0,0.128,0.872,0.872
+STU0336,Yusuf Kumar,Data Science,After IT1,Medium,Medium,True,0.054,0.907,0.039,0.907
+STU0337,Aarav Sharma,Mathematics,After IT1,Medium,Medium,True,0.04,0.889,0.07,0.889
+STU0338,Reyansh Nair,Mechanical,After IT1,Medium,Medium,True,0.304,0.68,0.016,0.68
+STU0339,Aarav Malik,Computer Science,After IT1,Medium,Medium,True,0.181,0.769,0.05,0.769
+STU0340,Lakshmi Johnson,Mechanical,After IT1,Low,Low,True,0.803,0.197,0.0,0.803
+STU0341,Tariq Joshi,Computer Science,After IT1,Medium,Medium,True,0.263,0.718,0.02,0.718
+STU0342,Vivaan Nair,Data Science,After IT1,Low,Low,True,0.579,0.42,0.001,0.579
+STU0343,Vihaan Ahmed,Data Science,After IT1,High,Medium,False,0.001,0.375,0.624,0.624
+STU0344,Neha Johnson,Computer Science,After IT1,Medium,Medium,True,0.084,0.888,0.029,0.888
+STU0345,Fatima Ahmed,Mathematics,After IT1,Medium,Medium,True,0.385,0.607,0.007,0.607
+STU0346,Fatima Siddiqui,Data Science,After IT1,Medium,Medium,True,0.022,0.85,0.128,0.85
+STU0347,Ayaan Verma,Electronics,After IT1,Medium,Medium,True,0.19,0.747,0.063,0.747
+STU0348,Tanvi Malik,Electronics,After IT1,Medium,Medium,True,0.005,0.727,0.267,0.727
+STU0349,Olivia Chaudhary,Mechanical,After IT1,Medium,Low,False,0.329,0.661,0.01,0.661
+STU0350,Lakshmi Wilson,Electronics,After IT1,Medium,Medium,True,0.217,0.76,0.023,0.76
+STU0351,Sneha Shah,Electronics,After IT1,High,High,True,0.0,0.011,0.989,0.989
+STU0352,Kavya Khan,Mathematics,After IT1,High,High,True,0.0,0.41,0.59,0.59
+STU0353,Arjun Malik,Mathematics,After IT1,Medium,Medium,True,0.007,0.848,0.145,0.848
+STU0354,Pooja Rao,Civil,After IT1,High,High,True,0.0,0.019,0.981,0.981
+STU0355,Leila Patel,Civil,After IT1,Medium,Low,False,0.202,0.78,0.017,0.78
+STU0356,Noor Siddiqui,Mathematics,After IT1,High,Medium,False,0.001,0.246,0.754,0.754
+STU0357,Ayaan Shah,Civil,After IT1,Medium,Medium,True,0.103,0.833,0.064,0.833
+STU0358,Ishaan Taylor,Mathematics,After IT1,Medium,Medium,True,0.211,0.758,0.031,0.758
+STU0359,Arjun Mirza,Civil,After IT1,Medium,Medium,True,0.007,0.632,0.361,0.632
+STU0360,Noor Smith,Data Science,After IT1,High,High,True,0.0,0.167,0.833,0.833
+STU0361,Rahul Johnson,Mathematics,After IT1,Medium,Medium,True,0.035,0.806,0.159,0.806
+STU0362,Hassan Williams,Mechanical,After IT1,Medium,Medium,True,0.042,0.871,0.087,0.871
+STU0363,Divya Nair,Mechanical,After IT1,High,High,True,0.0,0.081,0.919,0.919
+STU0364,Amir Mirza,Mathematics,After IT1,High,High,True,0.0,0.027,0.973,0.973
+STU0365,Vijay Ali,Electronics,After IT1,High,High,True,0.002,0.392,0.607,0.607
+STU0366,Sophia Brown,Mechanical,After IT1,Medium,Medium,True,0.007,0.722,0.271,0.722
+STU0367,Hassan Sharma,Electronics,After IT1,High,High,True,0.0,0.18,0.819,0.819
+STU0368,Riya Wilson,Mechanical,After IT1,Medium,High,False,0.009,0.655,0.337,0.655
+STU0369,Noor Taylor,Computer Science,After IT1,High,High,True,0.0,0.045,0.955,0.955
+STU0370,Hassan Nair,Computer Science,After IT1,Medium,High,False,0.006,0.571,0.423,0.571
+STU0371,Yusuf Chaudhary,Mathematics,After IT1,High,Medium,False,0.0,0.31,0.69,0.69
+STU0372,Kavya Kumar,Mechanical,After IT1,Medium,Medium,True,0.006,0.654,0.34,0.654
+STU0373,Shreya Siddiqui,Data Science,After IT1,Low,Low,True,0.904,0.096,0.0,0.904
+STU0374,Reyansh Miller,Electronics,After IT1,High,High,True,0.0,0.012,0.988,0.988
+STU0375,Aditya Sharma,Mechanical,After IT1,Medium,Medium,True,0.128,0.782,0.09,0.782
+STU0376,Hassan Shah,Mathematics,After IT1,High,High,True,0.003,0.451,0.547,0.547
+STU0377,Priya Rao,Electronics,After IT1,High,High,True,0.0,0.318,0.681,0.681
+STU0378,Vivaan Davis,Civil,After IT1,High,High,True,0.0,0.163,0.837,0.837
+STU0379,Vihaan Chaudhary,Mathematics,After IT1,Medium,Medium,True,0.015,0.826,0.158,0.826
+STU0380,Kavya Wilson,Mechanical,After IT1,High,High,True,0.001,0.288,0.711,0.711
+STU0381,Suresh Reddy,Data Science,After IT1,Medium,Medium,True,0.322,0.667,0.011,0.667
+STU0382,Neha Hassan,Civil,After IT1,High,High,True,0.0,0.019,0.981,0.981
+STU0383,Aryan Moore,Mathematics,After IT1,Medium,Medium,True,0.032,0.899,0.069,0.899
+STU0384,Vihaan Joshi,Mechanical,After IT1,Medium,Medium,True,0.05,0.852,0.098,0.852
+STU0385,Anjali Siddiqui,Computer Science,After IT1,Medium,Medium,True,0.003,0.789,0.208,0.789
+STU0386,Sneha Moore,Mechanical,After IT1,Medium,High,False,0.021,0.875,0.103,0.875
+STU0387,Ava Singh,Computer Science,After IT1,High,High,True,0.0,0.01,0.99,0.99
+STU0388,Sai Miller,Computer Science,After IT1,Medium,Low,False,0.269,0.713,0.018,0.713
+STU0389,Neha Verma,Mathematics,After IT1,High,High,True,0.0,0.002,0.998,0.998
+STU0390,Leila Ali,Mechanical,After IT1,Medium,Medium,True,0.001,0.51,0.489,0.51
+STU0391,Noor Mirza,Mechanical,After IT1,High,High,True,0.0,0.033,0.967,0.967
+STU0392,Ayaan Williams,Computer Science,After IT1,Medium,Low,False,0.395,0.601,0.003,0.601
+STU0393,Vivaan Ahmed,Electronics,After IT1,Medium,Medium,True,0.169,0.789,0.042,0.789
+STU0394,Charlotte Jones,Civil,After IT1,High,High,True,0.0,0.139,0.861,0.861
+STU0395,Rohan Mirza,Data Science,After IT1,High,High,True,0.0,0.022,0.978,0.978
+STU0396,Noor Kumar,Mechanical,After IT1,High,Medium,False,0.0,0.085,0.915,0.915
+STU0397,Noor Mirza,Civil,After IT1,High,Medium,False,0.0,0.328,0.672,0.672
+STU0398,Isabella Miller,Civil,After IT1,High,High,True,0.002,0.481,0.518,0.518
+STU0399,Ava Malik,Electronics,After IT1,High,High,True,0.0,0.014,0.986,0.986
+STU0400,Neha Williams,Civil,After IT1,Medium,Low,False,0.027,0.949,0.023,0.949
+STU0401,Rohan Ahmed,Mechanical,After IT1,High,High,True,0.0,0.446,0.554,0.554
+STU0402,Sophia Shah,Mathematics,After IT1,Medium,Medium,True,0.205,0.773,0.022,0.773
+STU0403,Rahul Reddy,Mathematics,After IT1,Medium,High,False,0.022,0.78,0.197,0.78
+STU0404,Reyansh Hassan,Civil,After IT1,Low,Low,True,0.633,0.363,0.003,0.633
+STU0405,Mia Johnson,Mechanical,After IT1,High,High,True,0.001,0.166,0.833,0.833
+STU0406,Mia Williams,Mechanical,After IT1,High,High,True,0.0,0.107,0.893,0.893
+STU0407,Suresh Ansari,Computer Science,After IT1,Low,Low,True,0.615,0.382,0.003,0.615
+STU0408,Zara Ansari,Electronics,After IT1,Medium,Medium,True,0.112,0.862,0.026,0.862
+STU0409,Leila Rao,Data Science,After IT1,Medium,Medium,True,0.05,0.872,0.078,0.872
+STU0410,Mia Taylor,Computer Science,After IT1,High,High,True,0.0,0.006,0.994,0.994
+STU0411,Rahul Verma,Data Science,After IT1,High,Medium,False,0.0,0.315,0.684,0.684
+STU0412,Reyansh Gupta,Mechanical,After IT1,Medium,Medium,True,0.029,0.853,0.119,0.853
+STU0413,Aarav Hassan,Mathematics,After IT1,High,High,True,0.0,0.071,0.929,0.929
+STU0414,Lakshmi Ahmed,Computer Science,After IT1,High,High,True,0.0,0.153,0.847,0.847
+STU0415,Tanvi Reddy,Civil,After IT1,Medium,Medium,True,0.015,0.733,0.251,0.733
+STU0416,Ayaan Rao,Civil,After IT1,High,High,True,0.0,0.001,0.999,0.999
+STU0417,Liam Chaudhary,Data Science,After IT1,Medium,Medium,True,0.008,0.654,0.339,0.654
+STU0418,Isabella Shah,Mechanical,After IT1,Low,Low,True,0.865,0.135,0.0,0.865
+STU0419,Pooja Jones,Mathematics,After IT1,High,High,True,0.003,0.497,0.5,0.5
+STU0420,Noor Reddy,Data Science,After IT1,High,High,True,0.0,0.018,0.982,0.982
+STU0421,Riya Shah,Mathematics,After IT1,High,High,True,0.0,0.042,0.958,0.958
+STU0422,Olivia Joshi,Electronics,After IT1,Medium,Medium,True,0.005,0.601,0.394,0.601
+STU0423,Suresh Jones,Mathematics,After IT1,Low,Low,True,0.913,0.087,0.0,0.913
+STU0424,Ayaan Malik,Civil,After IT1,High,Medium,False,0.001,0.457,0.542,0.542
+STU0425,Tariq Ahmed,Computer Science,After IT1,Medium,High,False,0.002,0.69,0.308,0.69
+STU0426,Pooja Ansari,Computer Science,After IT1,High,High,True,0.0,0.06,0.94,0.94
+STU0427,Divya Brown,Computer Science,After IT1,High,Medium,False,0.004,0.484,0.512,0.512
+STU0428,Charlotte Hassan,Mathematics,After IT1,High,High,True,0.0,0.002,0.998,0.998
+STU0429,Vijay Khan,Civil,After IT1,Medium,Medium,True,0.029,0.714,0.258,0.714
+STU0430,Sai Taylor,Mathematics,After IT1,Medium,High,False,0.008,0.556,0.436,0.556
+STU0431,Tanvi Moore,Mechanical,After IT1,Medium,Medium,True,0.063,0.885,0.052,0.885
+STU0432,Aarav Jones,Civil,After IT1,High,High,True,0.0,0.0,1.0,1.0
+STU0433,Vivaan Taylor,Civil,After IT1,Medium,Medium,True,0.039,0.919,0.042,0.919
+STU0434,Liam Ahmed,Mathematics,After IT1,Medium,Medium,True,0.436,0.543,0.022,0.543
+STU0435,Noah Brown,Mathematics,After IT1,Medium,Low,False,0.178,0.804,0.018,0.804
+STU0436,Aryan Miller,Computer Science,After IT1,Medium,Medium,True,0.032,0.723,0.246,0.723
+STU0437,Vihaan Brown,Civil,After IT1,High,High,True,0.0,0.024,0.976,0.976
+STU0438,Neha Moore,Computer Science,After IT1,High,High,True,0.0,0.141,0.859,0.859
+STU0439,Emma Smith,Mechanical,After IT1,Medium,Medium,True,0.434,0.558,0.008,0.558
+STU0440,Suresh Davis,Electronics,After IT1,Medium,Medium,True,0.079,0.871,0.051,0.871
+STU0441,Riya Malik,Computer Science,After IT1,High,High,True,0.007,0.406,0.587,0.587
+STU0442,Aditya Chaudhary,Mathematics,After IT1,Medium,Medium,True,0.006,0.694,0.301,0.694
+STU0443,Sophia Davis,Data Science,After IT1,High,High,True,0.0,0.007,0.993,0.993
+STU0444,Charlotte Ali,Electronics,After IT1,Medium,Medium,True,0.043,0.719,0.237,0.719
+STU0445,Tanvi Williams,Mechanical,After IT1,Medium,Medium,True,0.253,0.738,0.008,0.738
+STU0446,Hassan Miller,Mathematics,After IT1,High,High,True,0.0,0.005,0.995,0.995
+STU0447,Aarav Sharma,Electronics,After IT1,Medium,Medium,True,0.013,0.688,0.298,0.688
+STU0448,Pooja Chaudhary,Mathematics,After IT1,High,High,True,0.0,0.146,0.854,0.854
+STU0449,Emma Chaudhary,Computer Science,After IT1,High,Medium,False,0.002,0.315,0.682,0.682
+STU0450,Amara Ali,Mathematics,After IT1,High,High,True,0.0,0.083,0.917,0.917
+STU0451,Vihaan Ahmed,Mechanical,After IT1,Medium,Medium,True,0.003,0.584,0.413,0.584
+STU0452,Vihaan Verma,Data Science,After IT1,High,High,True,0.0,0.176,0.824,0.824
+STU0453,Leila Miller,Computer Science,After IT1,Medium,Medium,True,0.263,0.726,0.011,0.726
+STU0454,Krishna Williams,Computer Science,After IT1,Low,Medium,False,0.629,0.367,0.003,0.629
+STU0455,Noah Sharma,Mechanical,After IT1,Medium,Medium,True,0.151,0.76,0.09,0.76
+STU0456,Riya Kumar,Mechanical,After IT1,Medium,High,False,0.013,0.628,0.36,0.628
+STU0457,Aarav Johnson,Electronics,After IT1,Medium,Medium,True,0.021,0.604,0.375,0.604
+STU0458,Zara Patel,Data Science,After IT1,High,High,True,0.0,0.062,0.938,0.938
+STU0459,Sneha Smith,Mathematics,After IT1,Medium,High,False,0.0,0.603,0.397,0.603
+STU0460,Aryan Shah,Electronics,After IT1,Medium,High,False,0.009,0.752,0.239,0.752
+STU0461,Olivia Jones,Mathematics,After IT1,Medium,High,False,0.004,0.672,0.324,0.672
+STU0462,Krishna Chaudhary,Mathematics,After IT1,High,High,True,0.0,0.101,0.899,0.899
+STU0463,Rohan Wilson,Mathematics,After IT1,High,High,True,0.0,0.018,0.982,0.982
+STU0464,Divya Singh,Electronics,After IT1,Medium,Medium,True,0.203,0.79,0.007,0.79
+STU0465,Vihaan Kumar,Computer Science,After IT1,Medium,Medium,True,0.009,0.61,0.382,0.61
+STU0466,Fatima Wilson,Mechanical,After IT1,High,Medium,False,0.001,0.342,0.657,0.657
+STU0467,Reyansh Davis,Computer Science,After IT1,High,High,True,0.0,0.032,0.968,0.968
+STU0468,Priya Brown,Data Science,After IT1,High,High,True,0.001,0.492,0.507,0.507
+STU0469,Fatima Rao,Electronics,After IT1,Medium,Medium,True,0.395,0.597,0.008,0.597
+STU0470,Sophia Ahmed,Data Science,After IT1,High,High,True,0.0,0.024,0.976,0.976
+STU0471,Hassan Rao,Mechanical,After IT1,Medium,Medium,True,0.143,0.834,0.023,0.834
+STU0472,Mia Siddiqui,Mechanical,After IT1,Medium,High,False,0.151,0.795,0.054,0.795
+STU0473,Nandini Ali,Civil,After IT1,Low,Low,True,0.634,0.365,0.001,0.634
+STU0474,Kiran Shah,Data Science,After IT1,Medium,Medium,True,0.01,0.742,0.249,0.742
+STU0475,Sophia Brown,Computer Science,After IT1,Medium,Medium,True,0.001,0.546,0.453,0.546
+STU0476,Suresh Hassan,Data Science,After IT1,High,High,True,0.0,0.214,0.786,0.786
+STU0477,Ananya Moore,Electronics,After IT1,High,High,True,0.0,0.038,0.962,0.962
+STU0478,Rohan Khan,Mechanical,After IT1,High,High,True,0.0,0.122,0.878,0.878
+STU0479,Sophia Malik,Mechanical,After IT1,Medium,Medium,True,0.024,0.744,0.233,0.744
+STU0480,Lakshmi Ali,Data Science,After IT1,Medium,Medium,True,0.037,0.952,0.011,0.952
+STU0481,Sneha Gupta,Data Science,After IT1,Medium,Medium,True,0.005,0.535,0.46,0.535
+STU0482,Noor Ali,Mathematics,After IT1,High,High,True,0.002,0.41,0.588,0.588
+STU0483,Neha Patel,Data Science,After IT1,Low,Low,True,0.776,0.224,0.0,0.776
+STU0484,Isabella Williams,Mathematics,After IT1,Medium,Medium,True,0.016,0.746,0.239,0.746
+STU0485,Tanvi Taylor,Electronics,After IT1,Medium,Low,False,0.28,0.704,0.016,0.704
+STU0486,Vihaan Taylor,Electronics,After IT1,Medium,Medium,True,0.029,0.789,0.182,0.789
+STU0487,Suresh Ahmed,Computer Science,After IT1,High,High,True,0.0,0.056,0.944,0.944
+STU0488,Zara Chaudhary,Data Science,After IT1,Low,Low,True,0.67,0.323,0.007,0.67
+STU0489,Shreya Brown,Computer Science,After IT1,Medium,Medium,True,0.226,0.757,0.016,0.757
+STU0490,Tariq Reddy,Civil,After IT1,Medium,Low,False,0.369,0.607,0.024,0.607
+STU0491,Aryan Ansari,Electronics,After IT1,Medium,Medium,True,0.003,0.818,0.179,0.818
+STU0492,Olivia Jones,Mechanical,After IT1,High,Medium,False,0.0,0.134,0.866,0.866
+STU0493,Kavya Brown,Mathematics,After IT1,High,High,True,0.019,0.467,0.514,0.514
+STU0494,Aryan Verma,Civil,After IT1,Low,Medium,False,0.664,0.335,0.002,0.664
+STU0495,Divya Taylor,Mechanical,After IT1,Low,Low,True,0.679,0.319,0.002,0.679
+STU0496,Sneha Malik,Civil,After IT1,Medium,Medium,True,0.085,0.871,0.044,0.871
+STU0497,Arjun Kumar,Computer Science,After IT1,Medium,Medium,True,0.194,0.805,0.002,0.805
+STU0498,Rahul Rao,Computer Science,After IT1,High,High,True,0.0,0.034,0.966,0.966
+STU0499,Yusuf Rao,Mathematics,After IT1,Medium,Medium,True,0.036,0.844,0.121,0.844
+STU0500,Leila Davis,Electronics,After IT1,Low,Low,True,0.517,0.48,0.003,0.517
