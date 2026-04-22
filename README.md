@@ -1,186 +1,110 @@
 # SLIS — Student Learning Intelligence System
 
-An AI-powered academic analytics platform that predicts student risk levels and generates personalised recommendations using machine learning and **HuggingFace Qwen3-32B**.
+An AI-powered academic analytics platform that predicts student risk levels, tracks performance across 5 AI/ML subjects, and generates personalised recommendations.
+
+**Tech stack:** FastAPI · scikit-learn (Random Forest 92%) · React 18 (CDN) · Python · HuggingFace Qwen3-32B
 
 ---
 
-## Project Structure
-
-```
-slis/
-├── backend/                  # FastAPI REST API
-│   ├── main.py               # App entry point, CORS, lifespan
-│   ├── data_store.py         # In-memory CSV loader + feature builder
-│   ├── ml_service.py         # Model loader + inference
-│   ├── models/schemas.py     # Pydantic request/response schemas
-│   └── routes/
-│       ├── students.py       # GET /api/students, GET /api/students/{id}
-│       ├── predict.py        # POST /api/predict (custom input)
-│       ├── dashboard.py      # GET /api/dashboard/stats, /api/model-metrics
-│       └── recommendations.py# GET /api/recommendations/{id} → Qwen3-32B
-│
-├── data/                     # Synthetic student dataset (500 students)
-│   ├── students.csv          # Demographics, GPA, archetype
-│   ├── attendance.csv        # Monthly attendance (4 months × 500)
-│   ├── scores.csv            # Per-subject IT1/IT2/Final scores
-│   ├── activity.csv          # LMS engagement metrics
-│   └── generate_data.py      # Script to regenerate datasets
-│
-├── ml/                       # Trained models and metadata
-│   ├── risk_classifier.joblib       # RandomForest/GB risk classifier (Low/Med/High)
-│   ├── performance_predictor.joblib # Regressor for weighted score prediction
-│   ├── risk_thresholds.joblib       # Percentile thresholds (p33, p66)
-│   ├── feature_columns.json         # Feature list per model
-│   ├── model_metrics.json           # CV scores, test metrics
-│   ├── risk_predictions_full.csv    # Predictions + confidence for all 500 students
-│   └── train.py                     # Model training script
-│
-├── notebooks/                # Jupyter notebooks for VSCode
-│   ├── 01_data_generation.ipynb    # Generate all 4 CSVs
-│   ├── 02_eda.ipynb                # 7 exploratory plots
-│   ├── 03_model_training.ipynb     # Train + save both ML models
-│   ├── 04_api_server.ipynb         # Run server + test all endpoints
-│   └── plots/                      # Saved EDA plots (PNG)
-│
-├── frontend/                 # (Scaffolded — UI layer)
-├── requirements.txt
-└── .vscode/
-    ├── settings.json         # Python interpreter + notebook root
-    └── launch.json           # Run FastAPI server with F5
-```
-
----
-
-## Quickstart
-
-### 1. Install dependencies
+## Quick Start (2 terminals)
 
 ```bash
+# 1. Clone and install
+git clone https://github.com/UpendraSurya/SLIS.git
+cd SLIS
 pip install -r requirements.txt
+
+# 2. Terminal 1 — Backend (port 8000)
+python3 -m uvicorn backend.main:app --port 8000 --reload
+
+# 3. Terminal 2 — Frontend (port 3000)
+cd frontend && python3 -m http.server 3000
 ```
 
-### 2. Set your HuggingFace token
+Then open:
+- **Teacher Portal:** http://localhost:3000/ui_kits/teacher/index.html → login: `teacher` / `slis2024`
+- **Student Portal:** http://localhost:3000/ui_kits/student/index.html → any ID `STU0001`–`STU0500`
 
-```bash
-echo "your_hf_token_here" > ~/.hf_token
-```
+---
 
-Or set as environment variable:
-```bash
-export HF_TOKEN=your_hf_token_here
-```
+## Features
 
-### 3. Run the notebooks in order (VSCode)
+### Teacher Portal
+| Page | What it does |
+|------|-------------|
+| Dashboard | Cohort overview — risk distribution, model metrics, subject averages, top performers |
+| Student Directory | Search by name/ID, filter by risk level, paginated (500 students) |
+| Student Profile | Full scores, attendance, LMS activity, AI recommendations, **inline mark editing** |
+| Custom Predict | Enter any student metrics → instant risk + predicted score |
+| Upload Scores | Upload CSV/Excel after each exam → auto-matches by student ID |
 
-Open the `notebooks/` folder in VSCode and run in order:
+### Student Portal
+| Page | What it does |
+|------|-------------|
+| My Dashboard | Risk level, predicted score, attendance trend, LMS activity |
+| My Recommendations | AI-generated, priority-sorted (High → Medium → Low) |
+| My Performance | Per-subject breakdown with IT1/IT2/Final scores and trend (↑↓→) |
 
-| Notebook | What it does |
-|---|---|
-| `01_data_generation.ipynb` | Generates 4 CSV datasets (500 students) |
-| `02_eda.ipynb` | Creates 7 exploratory plots |
-| `03_model_training.ipynb` | Trains risk classifier + performance predictor, saves `.joblib` files |
-| `04_api_server.ipynb` | Starts FastAPI server + tests all endpoints including AI recommendations |
+---
 
-### 4. Or run the server directly
-
-```bash
-uvicorn backend.main:app --reload --port 8000
-```
-
-Then open http://127.0.0.1:8000/docs for the interactive API.
+## Subjects (AI/ML)
+- Machine Learning
+- Deep Learning
+- Python for AI
+- Data Structures & Algorithms
+- Statistics for AI
 
 ---
 
 ## API Endpoints
 
 | Method | Endpoint | Description |
-|---|---|---|
+|--------|----------|-------------|
 | GET | `/health` | Server + model status |
-| GET | `/api/students` | List all students (paginated, filterable by risk) |
-| GET | `/api/students/{id}` | Full student profile with risk + predicted score |
-| POST | `/api/predict` | Risk + score prediction for custom input |
-| GET | `/api/dashboard/stats` | Aggregate stats: risk distribution, subject averages |
-| GET | `/api/model-metrics` | Classifier and regressor CV + test metrics |
-| GET | `/api/recommendations/{id}` | AI-generated recommendations via Qwen3-32B |
+| GET | `/api/students` | List students (`?page&limit&risk_filter&search`) |
+| GET | `/api/students/{id}` | Full student profile |
+| GET | `/api/dashboard/stats` | Cohort-level analytics |
+| GET | `/api/model-metrics` | ML model performance |
+| POST | `/api/predict` | Risk + score for custom inputs |
+| GET | `/api/recommendations/{id}` | AI recommendations via Qwen3-32B |
+| POST | `/api/upload/scores` | Upload CSV/Excel exam scores |
+| PUT | `/api/students/{id}/scores/{subject}` | Edit individual marks |
 
-### Example: Get recommendations
+Interactive docs: http://127.0.0.1:8000/docs
 
-```bash
-curl http://127.0.0.1:8000/api/recommendations/STU0001
+---
+
+## Upload Score Sheet Format
+
+CSV or Excel with these columns:
+
+```
+student_id,subject,it1_score,it2_score,final_score
+STU0001,Machine Learning,78,82,88
+STU0002,Deep Learning,65,70,75
 ```
 
-```json
-{
-  "student_id": "STU0001",
-  "student_name": "Sneha Reddy",
-  "recommendations": [
-    {
-      "title": "Focus on Mathematics Performance",
-      "description": "Your Mathematics score of 24/100 is significantly below your other subjects. Dedicate 4 additional hours per week to Mathematics and seek tutoring support immediately.",
-      "priority": "High"
-    },
-    ...
-  ]
-}
-```
+Weighted score is computed automatically: `IT1×0.25 + IT2×0.25 + Final×0.50`
 
 ---
 
 ## ML Models
 
-### Risk Classifier
-- **Target**: Low / Medium / High risk (percentile-based on IT1+IT2 average)
-- **Algorithm**: Random Forest / Gradient Boosting / Logistic Regression (best selected by CV)
-- **Features**: 18 features — attendance trends, IT1/IT2 scores, subject variance, LMS engagement
-- **Key design decision**: Labels derived from IT1+IT2 only, never from final exam (no leakage)
+| Model | Algorithm | Metric |
+|-------|-----------|--------|
+| Risk Classifier | Random Forest | F1=96.2%, Acc=92% |
+| Performance Predictor | Ridge Regression | RMSE=4.68, R²=0.885 |
 
-### Performance Predictor
-- **Target**: `weighted_score` = IT1×0.25 + IT2×0.25 + Final×0.50
-- **Algorithm**: Random Forest / Gradient Boosting / Ridge Regression (best selected by CV)
-- **Features**: 20 features — all classifier features + resources accessed + session minutes
+Risk labels: **Low / Medium / High** (percentile-based, no final exam leakage)
 
 ---
 
-## Student Archetypes (in synthetic data)
+## Optional — AI Recommendations (Qwen3-32B)
 
-| Archetype | Pattern |
-|---|---|
-| Consistent | Stable performance throughout |
-| Late Bloomer | Low early scores, strong final |
-| Early Bird | High early scores, drops off |
-| Struggle | Consistently low across all tests |
-| Comeback | Crisis mid-semester, then recovery |
-| Exam Ace | Poor internals, dominates final exam |
-| Final Burnout | Strong internals, collapses at final |
+```bash
+echo "your_hf_token" > ~/.hf_token
+# or
+export HF_TOKEN=your_token
+```
 
----
-
-## AI Recommendations
-
-The `/api/recommendations/{id}` endpoint calls **Qwen/Qwen3-32B** via the HuggingFace Inference API.
-
-- Reads HF token from `HF_TOKEN` env var or `~/.hf_token`
-- Falls back to rule-based recommendations if API is unavailable
-- Generates 4 personalised, priority-tagged recommendations per student
-
----
-
-## VSCode Setup
-
-Open the `slis/` folder in VSCode. The `.vscode/` config provides:
-
-- **Run server**: Press `F5` → selects "Run FastAPI Server" → starts on port 8000
-- **Notebooks**: Open any `.ipynb` in `notebooks/` → run cells top to bottom
-- **Interpreter**: Points to `.venv/bin/python` by default (adjust if needed)
-
----
-
-## Requirements
-
-- Python 3.10+
-- `huggingface_hub` — HF Inference API for Qwen3-32B recommendations
-- `fastapi` + `uvicorn` — REST API server
-- `scikit-learn` + `joblib` — ML models
-- `pandas` + `numpy` — data processing
-- `matplotlib` + `seaborn` — EDA plots
-- `ipykernel` — Jupyter notebook support in VSCode
+Falls back to rule-based recommendations if token is missing.
